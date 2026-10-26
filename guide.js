@@ -1,7 +1,7 @@
 // Drone Studio guide: a side menu like the app's; each page shows its screenshot with numbered sections and every control explained.
 (function () {
   const D = window.GUIDE_DATA || {}, T = window.GUIDE_TEXT;
-  const ORDER = ["start", "project", "plan", "onsite", "photos", "mark", "thermal", "map", "report", "keys"];
+  const ORDER = ["start", "project", "plan", "onsite", "fieldtest", "photos", "mark", "thermal", "map", "report", "keys"];
   const ICONS = {
     start: '<path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/>',
     project: '<path d="M3 7h6l2 2h10v10H3z"/>',
@@ -12,6 +12,7 @@
     map: '<path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z"/><path d="M9 4v14M15 6v14"/>',
     report: '<path d="M6 3h9l4 4v14H6z"/><path d="M9 12h7M9 16h7"/>',
     onsite: '<path d="M12 21s-7-6.5-7-11a7 7 0 0114 0c0 4.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/>',
+    fieldtest: '<rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 12l3 3 5-6"/>',
     keys: '<rect x="3" y="7" width="18" height="11" rx="2"/><path d="M7 11h1M11 11h1M15 11h1M8 14h8"/>'
   };
   let lang = pickLang();
@@ -26,7 +27,7 @@
   const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"})[c]);
   const tipHtml = s => esc(s).replace(/\n/g, "<br>");
   const L = () => T[lang], U = () => T[lang].ui, data = () => D[lang] || D.da || {nav: {}, pages: {}};
-  const title = k => k === "start" ? U().start : k === "onsite" ? U().onsite : k === "keys" ? U().keys : (data().nav[k] || k);
+  const title = k => k === "start" ? U().start : k === "onsite" ? U().onsite : k === "fieldtest" ? L().fieldPage.title : k === "keys" ? U().keys : (data().nav[k] || k);
   const icon = k => `<svg viewBox="0 0 24 24">${ICONS[k] || ""}</svg>`;
 
   function route() {
@@ -36,7 +37,7 @@
 
   function buildNav(cur) {
     const item = k => `<a class="nav-item${k === cur ? " on" : ""}" href="#${k}">${icon(k)}<span>${esc(title(k))}</span></a>`;
-    nav.innerHTML = item("start") + item("project") + `<div class="nav-group">${esc(U().before)}</div>` + item("plan") + item("onsite")
+    nav.innerHTML = item("start") + item("project") + `<div class="nav-group">${esc(U().before)}</div>` + item("plan") + item("onsite") + item("fieldtest")
       + `<div class="nav-group">${esc(U().after)}</div>` + ["photos", "mark", "thermal", "map", "report"].map(item).join("")
       + '<div class="nav-sep"></div>' + item("keys");
     document.getElementById("lang-btn").textContent = U().lang;
@@ -61,6 +62,36 @@
     const S = L().onsitePage;
     return `<h1>${esc(U().onsite)}</h1><p class="lead">${S.lead}</p><ol class="steps">${S.steps.map(([h, txt]) => `<li><b>${esc(h)}</b>${txt}</li>`).join("")}</ol>`
       + `<div class="card" style="max-width:900px"><h2>${esc(U().tips)}</h2><ul>${S.tips.map(t => `<li>${t}</li>`).join("")}</ul></div>`;
+  }
+  function fieldPage() {
+    const S = L().fieldPage, saved = fieldState();
+    const kv = rows => `<div class="kv">${rows.map(([k, v]) => `<div class="row"><b>${esc(k)}</b><div>${v}</div></div>`).join("")}</div>`;
+    const cmp = kv(S.compare.map(r => [r[0], `<div><b>${esc(S.compareHead[1])}:</b> ${esc(r[1])}</div><div><b>${esc(S.compareHead[2])}:</b> ${esc(r[2])}</div>`]));
+    const phases = S.phases.map((p, i) => {
+      const done = p.items.filter((_, j) => saved[`${i}.${j}`]).length;
+      return `<div class="card chk-card" data-phase="${i}"><h2>${esc(p.h)} <span class="chk-count">${done}/${p.items.length} ${esc(S.done)}</span></h2>`
+        + p.items.map((t, j) => `<label class="chk"><input type="checkbox" data-k="${i}.${j}"${saved[`${i}.${j}`] ? " checked" : ""}><span>${t}</span></label>`).join("") + "</div>";
+    }).join("");
+    return `<h1>${esc(S.title)}</h1><p class="lead">${S.lead}</p>`
+      + `<div class="card" style="max-width:900px;margin-bottom:16px"><h2>${esc(S.compareTitle)}</h2>${cmp}<p style="margin:10px 0 0">${esc(S.compareNote)}</p></div>`
+      + phases + `<p><button type="button" id="field-reset" class="tab">${esc(S.reset)}</button></p>`
+      + `<div class="card" style="max-width:900px;margin-bottom:16px"><h2>${esc(S.notesTitle)}</h2>${kv(S.notes.map(r => [r[0], esc(r[1])]))}</div>`
+      + `<div class="card" style="max-width:900px"><h2>${esc(S.wordsTitle)}</h2>${kv(S.words.map(r => [r[0], esc(r[1])]))}</div>`;
+  }
+  function fieldState() {
+    try { return JSON.parse(localStorage.getItem("guide-fieldtest") || "{}") || {}; } catch (e) { return {}; }
+  }
+  function wireField() {
+    const save = st => { try { localStorage.setItem("guide-fieldtest", JSON.stringify(st)); } catch (e) {} };
+    main.querySelectorAll(".chk input").forEach(b => b.addEventListener("change", () => {
+      const st = fieldState();
+      if (b.checked) st[b.dataset.k] = 1; else delete st[b.dataset.k];
+      save(st);
+      const card = b.closest(".chk-card"), boxes = card.querySelectorAll(".chk input");
+      card.querySelector(".chk-count").textContent = `${card.querySelectorAll(".chk input:checked").length}/${boxes.length} ${L().fieldPage.done}`;
+    }));
+    const r = document.getElementById("field-reset");
+    if (r) r.addEventListener("click", () => { save({}); render(); });
   }
   function keysPage() {
     const S = L().keysPage;
@@ -148,9 +179,10 @@
   function render() {
     const {page, tab} = route();
     buildNav(page);
-    main.innerHTML = (page === "start" ? startPage() : page === "onsite" ? onsitePage() : page === "keys" ? keysPage() : appPage(page, tab))
+    main.innerHTML = (page === "start" ? startPage() : page === "onsite" ? onsitePage() : page === "fieldtest" ? fieldPage() : page === "keys" ? keysPage() : appPage(page, tab))
       + pager(page) + `<p class="foot">${esc(U().footer)}</p>`;
     wire(page);
+    if (page === "fieldtest") wireField();
     document.getElementById("side").classList.remove("open");
     window.scrollTo(0, 0);
   }

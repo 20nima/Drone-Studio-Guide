@@ -501,7 +501,7 @@ window.GUIDE_DATA = {
       {
        "id": "c1",
        "label": "",
-       "tip": "↖ Vælg",
+       "tip": "Vælg\nVælg og redigér: træk i håndtagene for at flytte hjørner, flytte eller skalere hele området, flytte orbit-centrum eller trække i den orange prik for at ændre radius, og flytte væglinjen. Træk i tomt kort for at flytte det, musehjulet zoomer.",
        "rect": [
         488,
         12,
@@ -513,7 +513,7 @@ window.GUIDE_DATA = {
       {
        "id": "c2",
        "label": "",
-       "tip": "Tegn område",
+       "tip": "Tegn område\nMarkér det område, rutegeneratoren skal dække (kortlægning og 3D-gitter). Det laver ingen waypoints i sig selv: tryk bagefter på Generér rute.",
        "rect": [
         522,
         12,
@@ -525,7 +525,7 @@ window.GUIDE_DATA = {
       {
        "id": "c3",
        "label": "",
-       "tip": "Vægglinje",
+       "tip": "Vægglinje\nKlik to gange for at tegne vægglinjen til en facadescanning.",
        "rect": [
         556,
         12,
@@ -537,7 +537,7 @@ window.GUIDE_DATA = {
       {
        "id": "c4",
        "label": "",
-       "tip": "Orbit-centrum",
+       "tip": "Orbit-centrum\nKlik for at sætte centrum for en orbit.",
        "rect": [
         590,
         12,
@@ -549,7 +549,7 @@ window.GUIDE_DATA = {
       {
        "id": "c5",
        "label": "",
-       "tip": "POI",
+       "tip": "POI\nKlik for at sætte et interessepunkt, kameraet skal kigge på.",
        "rect": [
         624,
         12,
@@ -561,7 +561,7 @@ window.GUIDE_DATA = {
       {
        "id": "c6",
        "label": "",
-       "tip": "Waypoints",
+       "tip": "Waypoints\nTilføj, vælg og flyt enkelte waypoints i hånden.",
        "rect": [
         658,
         12,
@@ -573,7 +573,7 @@ window.GUIDE_DATA = {
       {
        "id": "c7",
        "label": "",
-       "tip": "Lag",
+       "tip": "Lag\nVælg hvad der vises på kortet: område, rute, pile, numre, ortofoto med mere. Dit valg huskes.",
        "rect": [
         704,
         12,
@@ -585,7 +585,7 @@ window.GUIDE_DATA = {
       {
        "id": "c8",
        "label": "",
-       "tip": "Tilpas til plan",
+       "tip": "Tilpas til plan\nZoom kortet ind på hele din plan.",
        "rect": [
         740,
         12,
@@ -597,7 +597,7 @@ window.GUIDE_DATA = {
       {
        "id": "c9",
        "label": "",
-       "tip": "Guide",
+       "tip": "Guide\nTrin-for-trin guide til at planlægge en ortofoto-flyvning.",
        "rect": [
         1197,
         12,
@@ -1061,7 +1061,7 @@ window.GUIDE_DATA = {
       {
        "id": "c6",
        "label": "",
-       "tip": "✖ Brug ikke  (←)",
+       "tip": "Brug ikke  (←)\nUdelad denne fra rapporten (venstre piletast). Den bliver rød i listen og bliver i projektet som arkiv.",
        "rect": [
         289,
         6,
@@ -1073,7 +1073,7 @@ window.GUIDE_DATA = {
       {
        "id": "c7",
        "label": "",
-       "tip": "✔ Brug  (→)",
+       "tip": "Brug  (→)\nTag dette foto eller denne video med i kunderapporten (højre piletast). Den bliver grøn i listen.",
        "rect": [
         323,
         6,
@@ -1085,7 +1085,7 @@ window.GUIDE_DATA = {
       {
        "id": "c8",
        "label": "",
-       "tip": "⭐ Brug dette foto som oversigt",
+       "tip": "Brug dette foto som oversigt\nBrug dette foto som oversigtsbillede øverst i rapporten.",
        "rect": [
         369,
         6,
@@ -1097,7 +1097,7 @@ window.GUIDE_DATA = {
       {
        "id": "c9",
        "label": "",
-       "tip": "Før / efter…",
+       "tip": "Før / efter…\nPar et foto fra et tidligere besøg med et nyt; rapporten viser dem med en skyder.",
        "rect": [
         403,
         6,
@@ -1238,7 +1238,7 @@ window.GUIDE_DATA = {
       {
        "id": "c6",
        "label": "",
-       "tip": "➕ Ny markering",
+       "tip": "Ny markering\nTilføj en markering midt i fotoet med det valgte værktøj.",
        "rect": [
         878,
         6,
@@ -1250,7 +1250,7 @@ window.GUIDE_DATA = {
       {
        "id": "c7",
        "label": "",
-       "tip": "✨ AI-forslag…",
+       "tip": "AI-forslag…\nLad en AI kigge på fotos og foreslå mulige skader. Du godkender hvert forslag; intet tilføjes automatisk.",
        "rect": [
         912,
         6,
@@ -1274,7 +1274,7 @@ window.GUIDE_DATA = {
       {
        "id": "c9",
        "label": "",
-       "tip": "🖱 Vælg / flyt",
+       "tip": "Vælg / flyt\nVælg og flyt markeringer.",
        "rect": [
         289,
         6,
@@ -1286,9 +1286,9 @@ window.GUIDE_DATA = {
       {
        "id": "c10",
        "label": "",
-       "tip": "Lup",
+       "tip": "Ring\nTegn en cirkel om et sted: klik i midten og træk ud.",
        "rect": [
-        459,
+        323,
         6,
         32,
         28
@@ -1298,9 +1298,9 @@ window.GUIDE_DATA = {
       {
        "id": "c11",
        "label": "",
-       "tip": "✂ Beskær",
+       "tip": "Boks\nTegn et rektangel: træk fra hjørne til hjørne. Drej det med den runde knap over det (Shift: trin på 15°), så det ligger langs en rygning eller revne.",
        "rect": [
-        505,
+        357,
         6,
         32,
         28
@@ -1310,9 +1310,9 @@ window.GUIDE_DATA = {
       {
        "id": "c12",
        "label": "",
-       "tip": "▒ Slør",
+       "tip": "Pil\nTegn en pil, der peger på en detalje.",
        "rect": [
-        539,
+        391,
         6,
         32,
         28
@@ -1322,9 +1322,9 @@ window.GUIDE_DATA = {
       {
        "id": "c13",
        "label": "",
-       "tip": "Fjern beskær / slør ▾",
+       "tip": "Pin\nSæt en nål på ét enkelt sted.",
        "rect": [
-        573,
+        425,
         6,
         32,
         28
@@ -1334,7 +1334,55 @@ window.GUIDE_DATA = {
       {
        "id": "c14",
        "label": "",
-       "tip": "⭐ Brug dette foto som oversigt",
+       "tip": "Lup\nLup: klik på en detalje for at vise den forstørret på fotoet (en lille cirkel, en streg og en stor cirkel). Et hjælpemiddel, ikke et fund – den vises i rapporten, hvor hele fotoet vises (oversigt, bygningsdele, galleri).",
+       "rect": [
+        459,
+        6,
+        32,
+        28
+       ],
+       "section": ""
+      },
+      {
+       "id": "c15",
+       "label": "",
+       "tip": "Beskær\nBeskær: der kommer et rektangel på billedet. Træk i kanterne, og tryk OK. Kun den del bruges i rapporten; filen ændres ikke.",
+       "rect": [
+        505,
+        6,
+        32,
+        28
+       ],
+       "section": ""
+      },
+      {
+       "id": "c16",
+       "label": "",
+       "tip": "Slør\nSlør et område (fx en nabos vindue): der kommer et rektangel; placer det, og tryk OK. Tryk igen for flere områder.",
+       "rect": [
+        539,
+        6,
+        32,
+        28
+       ],
+       "section": ""
+      },
+      {
+       "id": "c17",
+       "label": "",
+       "tip": "Fjern beskær / slør\nFjern beskæringen eller den seneste sløring fra dette foto / denne video igen.",
+       "rect": [
+        573,
+        6,
+        32,
+        28
+       ],
+       "section": ""
+      },
+      {
+       "id": "c18",
+       "label": "",
+       "tip": "Brug dette foto som oversigt\nBrug dette foto som oversigtsbillede øverst i rapporten.",
        "rect": [
         619,
         6,
@@ -1344,7 +1392,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c15",
+       "id": "c19",
        "label": "",
        "tip": "Fjern fra storyboard",
        "rect": [
@@ -1356,7 +1404,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c16",
+       "id": "c20",
        "label": "Storyboard (2 stykker · 0:36)",
        "tip": "Træk for at ændre rækkefølgen · Delete fjerner · dobbeltklik åbner",
        "rect": [
@@ -1368,7 +1416,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c17",
+       "id": "c21",
        "label": "Kun udvalgte fotos",
        "tip": "Vis kun de fotos, du har valgt til rapporten.",
        "rect": [
@@ -2316,7 +2364,7 @@ window.GUIDE_DATA = {
       {
        "id": "c1",
        "label": "",
-       "tip": "↖ Select",
+       "tip": "Select\nSelect and edit: drag the handles to move corners, move or scale the whole area, move the orbit centre or drag the orange dot to change its radius, and move the wall line. Drag empty map to pan, mouse wheel zooms.",
        "rect": [
         488,
         12,
@@ -2328,7 +2376,7 @@ window.GUIDE_DATA = {
       {
        "id": "c2",
        "label": "",
-       "tip": "Draw area",
+       "tip": "Draw area\nMark the area the route generator should cover (survey grid and 3D grid). It creates no waypoints by itself: press Generate route afterwards.",
        "rect": [
         522,
         12,
@@ -2340,7 +2388,7 @@ window.GUIDE_DATA = {
       {
        "id": "c3",
        "label": "",
-       "tip": "Wall line",
+       "tip": "Wall line\nClick twice to draw the wall line for a facade scan.",
        "rect": [
         556,
         12,
@@ -2352,7 +2400,7 @@ window.GUIDE_DATA = {
       {
        "id": "c4",
        "label": "",
-       "tip": "Orbit centre",
+       "tip": "Orbit centre\nClick to set the centre of an orbit.",
        "rect": [
         590,
         12,
@@ -2364,7 +2412,7 @@ window.GUIDE_DATA = {
       {
        "id": "c5",
        "label": "",
-       "tip": "POI",
+       "tip": "POI\nClick to set a point of interest the camera should look at.",
        "rect": [
         624,
         12,
@@ -2376,7 +2424,7 @@ window.GUIDE_DATA = {
       {
        "id": "c6",
        "label": "",
-       "tip": "Waypoints",
+       "tip": "Waypoints\nAdd, select and move single waypoints by hand.",
        "rect": [
         658,
         12,
@@ -2388,7 +2436,7 @@ window.GUIDE_DATA = {
       {
        "id": "c7",
        "label": "",
-       "tip": "Layers",
+       "tip": "Layers\nChoose what is shown on the map: area, route, arrows, numbers, orthophoto and more. Your choice is remembered.",
        "rect": [
         704,
         12,
@@ -2400,7 +2448,7 @@ window.GUIDE_DATA = {
       {
        "id": "c8",
        "label": "",
-       "tip": "Fit to plan",
+       "tip": "Fit to plan\nZoom the map to your whole plan.",
        "rect": [
         740,
         12,
@@ -2412,7 +2460,7 @@ window.GUIDE_DATA = {
       {
        "id": "c9",
        "label": "",
-       "tip": "Guide",
+       "tip": "Guide\nStep-by-step guide to planning an orthophoto flight.",
        "rect": [
         1197,
         12,
@@ -2876,7 +2924,7 @@ window.GUIDE_DATA = {
       {
        "id": "c6",
        "label": "",
-       "tip": "✖ Don't use  (←)",
+       "tip": "Don't use  (←)\nLeave this one out of the report (Left arrow). It turns red in the list and stays in the project as archive.",
        "rect": [
         289,
         6,
@@ -2888,7 +2936,7 @@ window.GUIDE_DATA = {
       {
        "id": "c7",
        "label": "",
-       "tip": "✔ Use  (→)",
+       "tip": "Use  (→)\nPut this photo or video in the customer report (Right arrow). It turns green in the list.",
        "rect": [
         323,
         6,
@@ -2900,7 +2948,7 @@ window.GUIDE_DATA = {
       {
        "id": "c8",
        "label": "",
-       "tip": "⭐ Use this photo as the overview",
+       "tip": "Use this photo as the overview\nUse this photo as the overview picture at the top of the report.",
        "rect": [
         369,
         6,
@@ -2912,7 +2960,7 @@ window.GUIDE_DATA = {
       {
        "id": "c9",
        "label": "",
-       "tip": "Before / after…",
+       "tip": "Before / after…\nPair a photo from an earlier visit with a new one; the report shows them with a slider.",
        "rect": [
         403,
         6,
@@ -3041,7 +3089,7 @@ window.GUIDE_DATA = {
       {
        "id": "c5",
        "label": "",
-       "tip": "➕ New marker",
+       "tip": "New marker\nAdd a marker in the middle of the photo with the chosen tool.",
        "rect": [
         878,
         6,
@@ -3053,7 +3101,7 @@ window.GUIDE_DATA = {
       {
        "id": "c6",
        "label": "",
-       "tip": "✨ AI suggestions…",
+       "tip": "AI suggestions…\nLet an AI look at the photos and suggest possible defects. You approve each suggestion; nothing is added automatically.",
        "rect": [
         912,
         6,
@@ -3077,7 +3125,7 @@ window.GUIDE_DATA = {
       {
        "id": "c8",
        "label": "",
-       "tip": "🖱 Select / move",
+       "tip": "Select / move\nSelect and move markers.",
        "rect": [
         289,
         6,
@@ -3089,9 +3137,9 @@ window.GUIDE_DATA = {
       {
        "id": "c9",
        "label": "",
-       "tip": "Loupe",
+       "tip": "Ring\nDraw a circle around a spot: click the centre and drag out.",
        "rect": [
-        459,
+        323,
         6,
         32,
         28
@@ -3101,9 +3149,9 @@ window.GUIDE_DATA = {
       {
        "id": "c10",
        "label": "",
-       "tip": "✂ Crop",
+       "tip": "Box\nDraw a rectangle: drag from corner to corner. Turn it with the round knob above it (Shift: steps of 15°) so it lies along a ridge or a crack.",
        "rect": [
-        505,
+        357,
         6,
         32,
         28
@@ -3113,9 +3161,9 @@ window.GUIDE_DATA = {
       {
        "id": "c11",
        "label": "",
-       "tip": "▒ Blur",
+       "tip": "Arrow\nDraw an arrow that points at a detail.",
        "rect": [
-        539,
+        391,
         6,
         32,
         28
@@ -3125,9 +3173,9 @@ window.GUIDE_DATA = {
       {
        "id": "c12",
        "label": "",
-       "tip": "Undo crop / blur ▾",
+       "tip": "Pin\nPlace a pin on a single spot.",
        "rect": [
-        573,
+        425,
         6,
         32,
         28
@@ -3137,7 +3185,55 @@ window.GUIDE_DATA = {
       {
        "id": "c13",
        "label": "",
-       "tip": "⭐ Use this photo as the overview",
+       "tip": "Loupe\nLoupe: click a detail to show it enlarged on the photo (a small circle, a line and a big circle). A visual aid, not a finding – it shows in the report wherever the whole photo is shown (overview, building parts, gallery).",
+       "rect": [
+        459,
+        6,
+        32,
+        28
+       ],
+       "section": ""
+      },
+      {
+       "id": "c14",
+       "label": "",
+       "tip": "Crop\nCrop: a rectangle appears on the picture. Drag its edges, then OK. Only that part is used in the report; the file is not changed.",
+       "rect": [
+        505,
+        6,
+        32,
+        28
+       ],
+       "section": ""
+      },
+      {
+       "id": "c15",
+       "label": "",
+       "tip": "Blur\nBlur an area (for example a neighbour’s window): a rectangle appears; place it, then OK. Press again for more areas.",
+       "rect": [
+        539,
+        6,
+        32,
+        28
+       ],
+       "section": ""
+      },
+      {
+       "id": "c16",
+       "label": "",
+       "tip": "Undo crop / blur\nTake the crop or the last blur box off this photo / video again.",
+       "rect": [
+        573,
+        6,
+        32,
+        28
+       ],
+       "section": ""
+      },
+      {
+       "id": "c17",
+       "label": "",
+       "tip": "Use this photo as the overview\nUse this photo as the overview picture at the top of the report.",
        "rect": [
         619,
         6,
@@ -3147,7 +3243,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c14",
+       "id": "c18",
        "label": "",
        "tip": "Remove from the storyboard",
        "rect": [
@@ -3159,7 +3255,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c15",
+       "id": "c19",
        "label": "Storyboard (2 pieces · 0:36)",
        "tip": "Drag to change the order · Delete removes · double-click opens",
        "rect": [
@@ -3171,7 +3267,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c16",
+       "id": "c20",
        "label": "Only selected photos",
        "tip": "Show only the photos you selected for the report.",
        "rect": [

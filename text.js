@@ -12,7 +12,7 @@ da: {
     project: {
       lead: "Alt om jobbet: kunden, adressen, din virksomhed og de tekster, der står i rapporten.",
       steps: ["Find kunden: vælg søgemåde (Auto, CVR, telefon eller navn), skriv i feltet og tryk <b>Hent</b>. Private personer findes ikke i CVR – skriv dem ind selv.",
-              "Skriv <b>sagsadressen</b>. Dato og drone udfyldes fra fotoene, når du har importeret dem.",
+              "Skriv <b>sagsadressen</b>. Dato og drone udfyldes fra fotoene, når du har importeret dem, og <b>Hent vejr</b> udfylder vejret på flyvetidspunktet (Open-Meteo, kræver internet).",
               "Vælg din <b>firmaprofil</b>: logo, inspektør og operatør-ID kommer med. Ændrer du noget, kan du gemme det som profil til næste gang (… -menuen).",
               "Skriv en kort <b>indledning</b>. Standardforbeholdet kommer altid med i rapporten; dit eget forbehold står under det.",
               "<b>Ejendom</b> (bygningstype, tagform, tagdækning …) og <b>flyveloggen</b> står bagerst i rapporten. Flyveloggen kan beregnes fra fotoene."],
@@ -76,7 +76,7 @@ da: {
     },
     report: {
       lead: "Tjek at alt er med, vælg layout og eksportér rapporten som HTML og PDF.",
-      steps: ["Læs <b>tjeklisten</b>: hvert punkt fortæller, hvad der mangler, og hvor det rettes.",
+      steps: ["Læs <b>tjeklisten</b>: hvert punkt fortæller, hvad der mangler. Klik på et punkt med <b>→</b>, så kommer du direkte hen til det første fund eller den side, hvor det rettes.",
               "Vælg <b>layout</b>: Standard (2 fund pr. side), Stort (1 pr. side) eller Resumé (oversigt og tabel).",
               "Vælg <b>eksportindstillinger</b>: fotostørrelse, rapportsprog, PDF, videoer og hvad der ellers skal med.",
               "Tryk <b>Forhåndsvis i browser</b> for at se rapporten med det samme.",
@@ -92,7 +92,7 @@ da: {
            ["photos", "Importér og sortér fotos og video."], ["mark", "Markér fund, og beskriv bygningsdelene."],
            ["thermal", "Termografi, hvis du har termiske billeder."], ["map", "Ortofoto, målinger og 3D-optagesæt (valgfrit)."], ["report", "Tjek, vælg layout og eksportér."]],
     frame: [["Sidemenuen", "Siderne i rækkefølge. Knappen nederst folder menuen sammen til ikoner. Ny, Åbn og Gem sidder også nederst."],
-            ["Topbjælken", "Fortryd og gentag, tandhjulet (tema og sprog) og <b>Eksportér rapport</b>."],
+            ["Topbjælken", "Fortryd og gentag, <b>?</b> (denne guide, F1), tandhjulet (tema, sprog og skærmstørrelse 100–150 % til en bærbar i felten) og <b>Eksportér rapport</b>."],
             ["Nederst", "<b>Næste →</b> går til næste trin; statuslinjen fortæller, hvad programmet laver."],
             ["Gemning", "Projektet gemmes automatisk hvert minut og ligger i sin egen mappe med alle fotos (Dokumenter\\Drone Inspection Studio\\Projects)."]],
     frameTitle: "Programmets ramme", flowTitle: "Arbejdsgangen"
@@ -110,7 +110,7 @@ da: {
   },
   keysPage: {
     lead: "Tastaturgenveje, der virker i hele programmet.",
-    rows: [["Ctrl+Z / Ctrl+Y", "Fortryd / gentag"], ["Ctrl+S", "Gem"], ["Ctrl+O", "Åbn projekt"], ["Ctrl+N", "Nyt projekt"], ["Ctrl+E", "Eksportér rapport"],
+    rows: [["Ctrl+Z / Ctrl+Y", "Fortryd / gentag"], ["Ctrl+S", "Gem"], ["Ctrl+O", "Åbn projekt"], ["Ctrl+N", "Nyt projekt"], ["Ctrl+E", "Eksportér rapport"], ["F1", "Åbn guiden på den side, du står på"],
            ["→ / ←", "Foto & Video: brug / brug ikke"], ["Mellemrum", "Afspil eller pause video"], ["S", "Værksted: del videoen ved afspilningspositionen"],
            ["Delete", "Værksted: slet markering eller videostykke · Flyveplan: slet valgte waypoints"], ["Ctrl+D", "Værksted: dupliker markeringen"],
            ["Musehjul", "Zoom på foto og kort"], ["Midter-/højreklik + træk", "Panorér fotoet"]]
@@ -128,7 +128,7 @@ en: {
     project: {
       lead: "Everything about the job: the customer, the address, your company and the texts in the report.",
       steps: ["Find the customer: choose how to search (Auto, CVR, phone or name), type in the field and press <b>Fetch</b>. Private persons are not in CVR – type them in yourself.",
-              "Type the <b>job address</b>. Date and drone are filled in from the photos once they are imported.",
+              "Type the <b>job address</b>. Date and drone are filled in from the photos once they are imported, and <b>Fetch weather</b> fills in the weather at the time of the flight (Open-Meteo, needs internet).",
               "Choose your <b>company profile</b>: logo, inspector and operator ID come with it. If you change something, save it as a profile for next time (the … menu).",
               "Write a short <b>introduction</b>. The standard disclaimer is always in the report; your own reservations come under it.",
               "<b>Property</b> (building type, roof shape, roofing …) and the <b>flight log</b> are printed at the back. The flight log can be calculated from the photos."],
@@ -192,7 +192,7 @@ en: {
     },
     report: {
       lead: "Check that everything is there, choose a layout and export the report as HTML and PDF.",
-      steps: ["Read the <b>checklist</b>: each line says what is missing and where to fix it.",
+      steps: ["Read the <b>checklist</b>: each line says what is missing. Click a line with <b>→</b> to go straight to the first finding or the page where it is fixed.",
               "Choose a <b>layout</b>: Standard (2 findings per page), Large (1 per page) or Summary (overview and table).",
               "Choose the <b>export settings</b>: photo size, report language, PDF, videos and what else to include.",
               "Press <b>Preview in browser</b> to see the report straight away.",
@@ -208,7 +208,7 @@ en: {
            ["photos", "Import and sort photos and videos."], ["mark", "Mark findings and describe the building parts."],
            ["thermal", "Thermography, if you have thermal images."], ["map", "Orthophoto, measurements and 3D capture sets (optional)."], ["report", "Check, choose a layout and export."]],
     frame: [["The side menu", "The pages in order. The button at the bottom folds the menu to icons. New, Open and Save are at the bottom too."],
-            ["The top bar", "Undo and redo, the gear (theme and language) and <b>Export report</b>."],
+            ["The top bar", "Undo and redo, <b>?</b> (this guide, F1), the gear (theme, language and screen size 100–150 % for a laptop in the field) and <b>Export report</b>."],
             ["At the bottom", "<b>Next →</b> goes to the next step; the status line says what the app is doing."],
             ["Saving", "The project saves itself every minute and lives in its own folder with all photos (Documents\\Drone Inspection Studio\\Projects)."]],
     frameTitle: "The app's frame", flowTitle: "The workflow"
@@ -226,7 +226,7 @@ en: {
   },
   keysPage: {
     lead: "Keyboard shortcuts that work throughout the app.",
-    rows: [["Ctrl+Z / Ctrl+Y", "Undo / redo"], ["Ctrl+S", "Save"], ["Ctrl+O", "Open project"], ["Ctrl+N", "New project"], ["Ctrl+E", "Export report"],
+    rows: [["Ctrl+Z / Ctrl+Y", "Undo / redo"], ["Ctrl+S", "Save"], ["Ctrl+O", "Open project"], ["Ctrl+N", "New project"], ["Ctrl+E", "Export report"], ["F1", "Open this guide on the page you are on"],
            ["→ / ←", "Photos & Video: use / don't use"], ["Space", "Play or pause a video"], ["S", "Workshop: split the video at the playhead"],
            ["Delete", "Workshop: delete marker or video piece · Flight plan: delete selected waypoints"], ["Ctrl+D", "Workshop: duplicate the marker"],
            ["Mouse wheel", "Zoom photos and maps"], ["Middle/right drag", "Pan the photo"]]

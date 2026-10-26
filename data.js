@@ -248,37 +248,49 @@ window.GUIDE_DATA = {
        "rect": [
         444,
         301,
-        387,
-        32
+        303,
+        34
        ],
        "section": "s2"
       },
       {
        "id": "c15",
-       "label": "Jobskabelon",
-       "tip": "Udfylder rapporttekst, flyveplan-standarder og layout. Felter du allerede har skrevet beholdes.",
+       "label": "Hent vejr",
+       "tip": "Udfyld vejret på flyvningens tidspunkt og sted (ud fra fotoenes tid og GPS) fra Open-Meteo. Gratis, kræver internet.",
        "rect": [
-        444,
-        363,
-        311,
+        753,
+        301,
+        78,
         34
        ],
        "section": "s2"
       },
       {
        "id": "c16",
-       "label": "Anvend",
-       "tip": "Udfylder rapporttekst, flyveplan-standarder og layout. Det du allerede har skrevet beholdes.",
+       "label": "Jobskabelon",
+       "tip": "Udfylder rapporttekst, flyveplan-standarder og layout. Felter du allerede har skrevet beholdes.",
        "rect": [
-        761,
-        363,
-        70,
+        444,
+        365,
+        311,
         34
        ],
        "section": "s2"
       },
       {
        "id": "c17",
+       "label": "Anvend",
+       "tip": "Udfylder rapporttekst, flyveplan-standarder og layout. Det du allerede har skrevet beholdes.",
+       "rect": [
+        761,
+        365,
+        70,
+        34
+       ],
+       "section": "s2"
+      },
+      {
+       "id": "c18",
        "label": "Profil",
        "tip": "Gem dine firmaoplysninger og logo som profil – så udfyldes de automatisk i alle nye projekter.",
        "rect": [
@@ -290,7 +302,7 @@ window.GUIDE_DATA = {
        "section": "s3"
       },
       {
-       "id": "c18",
+       "id": "c19",
        "label": "",
        "tip": "Mere: gem som profil, redigér profiler, vælg eller fjern logo",
        "rect": [
@@ -302,7 +314,7 @@ window.GUIDE_DATA = {
        "section": "s3"
       },
       {
-       "id": "c19",
+       "id": "c20",
        "label": "Din virksomhed",
        "tip": "Dine egne firmaoplysninger og logo, vist i rapporten.",
        "rect": [
@@ -314,7 +326,7 @@ window.GUIDE_DATA = {
        "section": "s3"
       },
       {
-       "id": "c20",
+       "id": "c21",
        "label": "Inspektørens navn",
        "tip": "Navn på piloten/inspektøren, der underskriver rapporten.",
        "rect": [
@@ -326,7 +338,7 @@ window.GUIDE_DATA = {
        "section": "s3"
       },
       {
-       "id": "c21",
+       "id": "c22",
        "label": "Operatør-ID",
        "tip": "Dit droneoperatør-registreringsnummer.",
        "rect": [
@@ -338,7 +350,7 @@ window.GUIDE_DATA = {
        "section": "s3"
       },
       {
-       "id": "c22",
+       "id": "c23",
        "label": "Indledning / omfang (vises i rapporten)",
        "tip": "Kort samlet vurdering øverst i rapporten.",
        "rect": [
@@ -350,7 +362,7 @@ window.GUIDE_DATA = {
        "section": "s4"
       },
       {
-       "id": "c23",
+       "id": "c24",
        "label": "Ekstra forbehold (vises under standardforbeholdet)",
        "tip": "Dine egne ekstra forbehold. Rapporten har altid standardforbeholdet (visuel droneinspektion, ikke en tilstandsrapport); denne tekst kommer under det.",
        "rect": [
@@ -362,7 +374,7 @@ window.GUIDE_DATA = {
        "section": "s4"
       },
       {
-       "id": "c24",
+       "id": "c25",
        "label": "Foreslå tekst",
        "tip": "Skriv et udkast ud fra dine fund (antal, bygningsdele, alvorsgrader). Objektivt og kort; ret det bagefter.",
        "rect": [
@@ -374,7 +386,7 @@ window.GUIDE_DATA = {
        "section": "s4"
       },
       {
-       "id": "c25",
+       "id": "c26",
        "label": "Beregn fra fotos",
        "tip": "Gruppér fotoene i flyvninger efter optagetid og aflæs start, varighed, højde og distance.",
        "rect": [
@@ -386,7 +398,7 @@ window.GUIDE_DATA = {
        "section": "s6"
       },
       {
-       "id": "c26",
+       "id": "c27",
        "label": "",
        "tip": "Ryd flyveloggen",
        "rect": [
@@ -398,7 +410,7 @@ window.GUIDE_DATA = {
        "section": "s6"
       },
       {
-       "id": "c27",
+       "id": "c28",
        "label": "Rediger projekt…",
        "tip": "Ret projektets navn, adresse, dato og kunde. Et nyt navn omdøber mappen.",
        "rect": [
@@ -1485,58 +1497,10 @@ window.GUIDE_DATA = {
        "label": "📂 Importér ortofoto (GeoTIFF)…",
        "tip": "Indlæs et georefereret ortofoto (GeoTIFF), fx odm_orthophoto.tif fra WebODM.",
        "rect": [
-        9,
-        40,
+        530,
+        366,
         216,
         34
-       ],
-       "section": ""
-      },
-      {
-       "id": "c2",
-       "label": "📍 Placér fund automatisk",
-       "tip": "Sæt nåle for dine fund på ortofotoet ud fra fotoernes positioner.",
-       "rect": [
-        231,
-        40,
-        179,
-        34
-       ],
-       "section": ""
-      },
-      {
-       "id": "c3",
-       "label": "Ryd pins",
-       "tip": "Fjern alle nåle fra ortofotoet.",
-       "rect": [
-        416,
-        40,
-        75,
-        34
-       ],
-       "section": ""
-      },
-      {
-       "id": "c4",
-       "label": "Fjern ortofoto",
-       "tip": "Fjern ortofotoet fra projektet (filen bliver på disken).",
-       "rect": [
-        497,
-        40,
-        106,
-        34
-       ],
-       "section": ""
-      },
-      {
-       "id": "c5",
-       "label": "Vis fotoernes positioner",
-       "tip": "Vis en prik hvor hvert foto er taget.",
-       "rect": [
-        609,
-        48,
-        163,
-        18
        ],
        "section": ""
       }
@@ -1547,185 +1511,19 @@ window.GUIDE_DATA = {
      "img": "shots/da/map_3.png",
      "w": 1275,
      "h": 812,
-     "sections": [
-      {
-       "id": "s1",
-       "title": "Måle",
-       "tip": "Klik for at folde gruppen ud eller ind.",
-       "rect": [
-        18,
-        49,
-        372,
-        273
-       ]
-      },
-      {
-       "id": "s2",
-       "title": "DSM",
-       "tip": "Klik for at folde gruppen ud eller ind.",
-       "rect": [
-        18,
-        328,
-        372,
-        196
-       ]
-      },
-      {
-       "id": "s3",
-       "title": "Målinger",
-       "tip": "Klik for at folde gruppen ud eller ind.",
-       "rect": [
-        18,
-        530,
-        372,
-        273
-       ]
-      }
-     ],
+     "sections": [],
      "controls": [
       {
        "id": "c1",
-       "label": "",
-       "tip": "Panorér",
+       "label": "📂 Importér ortofoto (GeoTIFF)…",
+       "tip": "Indlæs et georefereret ortofoto (GeoTIFF), fx odm_orthophoto.tif fra WebODM.",
        "rect": [
-        35,
-        94,
-        32,
-        28
-       ],
-       "section": "s1"
-      },
-      {
-       "id": "c2",
-       "label": "",
-       "tip": "Afstand",
-       "rect": [
-        69,
-        94,
-        32,
-        28
-       ],
-       "section": "s1"
-      },
-      {
-       "id": "c3",
-       "label": "",
-       "tip": "Areal",
-       "rect": [
-        103,
-        94,
-        32,
-        28
-       ],
-       "section": "s1"
-      },
-      {
-       "id": "c4",
-       "label": "",
-       "tip": "Højde",
-       "rect": [
-        137,
-        94,
-        32,
-        28
-       ],
-       "section": "s1"
-      },
-      {
-       "id": "c5",
-       "label": "",
-       "tip": "Volumen",
-       "rect": [
-        171,
-        94,
-        32,
-        28
-       ],
-       "section": "s1"
-      },
-      {
-       "id": "c6",
-       "label": "",
-       "tip": "Profil",
-       "rect": [
-        205,
-        94,
-        32,
-        28
-       ],
-       "section": "s1"
-      },
-      {
-       "id": "c7",
-       "label": "",
-       "tip": "Kontrolpunkt",
-       "rect": [
-        239,
-        94,
-        32,
-        28
-       ],
-       "section": "s1"
-      },
-      {
-       "id": "c8",
-       "label": "Basisniveau for volumen",
-       "tip": "Hvad volumen måles op imod: omridsets middelhøjde, laveste punkt eller en fast kote.",
-       "rect": [
-        32,
-        238,
-        344,
-        32
-       ],
-       "section": "s1"
-      },
-      {
-       "id": "c9",
-       "label": "Importér højdemodel (DSM)…",
-       "tip": "Indlæs en højdemodel (float-GeoTIFF), fx dsm.tif fra WebODM.",
-       "rect": [
-        32,
-        412,
-        198,
+        530,
+        368,
+        216,
         34
        ],
-       "section": "s2"
-      },
-      {
-       "id": "c10",
-       "label": "Fjern DSM",
-       "tip": "Fjern højdemodellen fra projektet.",
-       "rect": [
-        236,
-        412,
-        140,
-        34
-       ],
-       "section": "s2"
-      },
-      {
-       "id": "c11",
-       "label": "Højdekurve-interval (m)",
-       "tip": "Afstand mellem højdekurver i meter.",
-       "rect": [
-        32,
-        476,
-        60,
-        34
-       ],
-       "section": "s2"
-      },
-      {
-       "id": "c12",
-       "label": "Eksportér højdekurver (DXF)…",
-       "tip": "Gem højdekurver fra højdemodellen som en DXF-fil til CAD eller QGIS.",
-       "rect": [
-        98,
-        476,
-        278,
-        34
-       ],
-       "section": "s2"
+       "section": ""
       }
      ],
      "tab": "Måle"
@@ -2253,37 +2051,49 @@ window.GUIDE_DATA = {
        "rect": [
         444,
         301,
-        387,
-        32
+        274,
+        34
        ],
        "section": "s2"
       },
       {
        "id": "c15",
-       "label": "Job template",
-       "tip": "Fills the report text, flight-plan defaults and layout. Fields you already wrote are kept.",
+       "label": "Fetch weather",
+       "tip": "Fill in the weather at the time and place of the flight (from the photos' time and GPS), from Open-Meteo. Free, needs internet.",
        "rect": [
-        444,
-        363,
-        321,
+        724,
+        301,
+        107,
         34
        ],
        "section": "s2"
       },
       {
        "id": "c16",
-       "label": "Apply",
-       "tip": "Fills report text, flight-plan defaults and layout. What you already wrote is kept.",
+       "label": "Job template",
+       "tip": "Fills the report text, flight-plan defaults and layout. Fields you already wrote are kept.",
        "rect": [
-        771,
-        363,
-        60,
+        444,
+        365,
+        321,
         34
        ],
        "section": "s2"
       },
       {
        "id": "c17",
+       "label": "Apply",
+       "tip": "Fills report text, flight-plan defaults and layout. What you already wrote is kept.",
+       "rect": [
+        771,
+        365,
+        60,
+        34
+       ],
+       "section": "s2"
+      },
+      {
+       "id": "c18",
        "label": "Profile",
        "tip": "Save your company details and logo as a profile – they are then filled in automatically in every new project.",
        "rect": [
@@ -2295,7 +2105,7 @@ window.GUIDE_DATA = {
        "section": "s3"
       },
       {
-       "id": "c18",
+       "id": "c19",
        "label": "",
        "tip": "More: save as profile, edit profiles, choose or remove the logo",
        "rect": [
@@ -2307,7 +2117,7 @@ window.GUIDE_DATA = {
        "section": "s3"
       },
       {
-       "id": "c19",
+       "id": "c20",
        "label": "Your company",
        "tip": "Your own company details and logo, shown in the report.",
        "rect": [
@@ -2319,7 +2129,7 @@ window.GUIDE_DATA = {
        "section": "s3"
       },
       {
-       "id": "c20",
+       "id": "c21",
        "label": "Inspector name",
        "tip": "Name of the pilot / inspector who signs the report.",
        "rect": [
@@ -2331,7 +2141,7 @@ window.GUIDE_DATA = {
        "section": "s3"
       },
       {
-       "id": "c21",
+       "id": "c22",
        "label": "Operator ID",
        "tip": "Your drone operator registration number (Droneregistrering).",
        "rect": [
@@ -2343,7 +2153,7 @@ window.GUIDE_DATA = {
        "section": "s3"
       },
       {
-       "id": "c22",
+       "id": "c23",
        "label": "Introduction / scope (shown in report)",
        "tip": "Short overall assessment at the top of the report.",
        "rect": [
@@ -2355,7 +2165,7 @@ window.GUIDE_DATA = {
        "section": "s4"
       },
       {
-       "id": "c23",
+       "id": "c24",
        "label": "Extra disclaimer (shown under the standard disclaimer)",
        "tip": "Your own extra reservations. The report always prints the standard disclaimer (visual drone inspection, not a building survey); this text comes under it.",
        "rect": [
@@ -2367,7 +2177,7 @@ window.GUIDE_DATA = {
        "section": "s4"
       },
       {
-       "id": "c24",
+       "id": "c25",
        "label": "Suggest text",
        "tip": "Write a draft from your findings (counts, building parts, severities). Objective and short; edit it afterwards.",
        "rect": [
@@ -2379,7 +2189,7 @@ window.GUIDE_DATA = {
        "section": "s4"
       },
       {
-       "id": "c25",
+       "id": "c26",
        "label": "Calculate from photos",
        "tip": "Group the photos into flights by capture time and read start, duration, height and distance.",
        "rect": [
@@ -2391,7 +2201,7 @@ window.GUIDE_DATA = {
        "section": "s6"
       },
       {
-       "id": "c26",
+       "id": "c27",
        "label": "",
        "tip": "Clear the flight log",
        "rect": [
@@ -2403,7 +2213,7 @@ window.GUIDE_DATA = {
        "section": "s6"
       },
       {
-       "id": "c27",
+       "id": "c28",
        "label": "Edit project…",
        "tip": "Change the project's name, address, date and customer. A new name renames the folder.",
        "rect": [
@@ -3478,58 +3288,10 @@ window.GUIDE_DATA = {
        "label": "📂 Import orthophoto (GeoTIFF)…",
        "tip": "Load a georeferenced orthophoto (GeoTIFF), e.g. odm_orthophoto.tif from WebODM.",
        "rect": [
-        9,
-        40,
+        526,
+        366,
         223,
         34
-       ],
-       "section": ""
-      },
-      {
-       "id": "c2",
-       "label": "📍 Place findings automatically",
-       "tip": "Place pins for your findings on the orthophoto from the photo positions.",
-       "rect": [
-        238,
-        40,
-        207,
-        34
-       ],
-       "section": ""
-      },
-      {
-       "id": "c3",
-       "label": "Clear pins",
-       "tip": "Remove all pins from the orthophoto.",
-       "rect": [
-        451,
-        40,
-        83,
-        34
-       ],
-       "section": ""
-      },
-      {
-       "id": "c4",
-       "label": "Remove orthophoto",
-       "tip": "Remove the orthophoto from the project (the file stays on disk).",
-       "rect": [
-        540,
-        40,
-        142,
-        34
-       ],
-       "section": ""
-      },
-      {
-       "id": "c5",
-       "label": "Show photo positions",
-       "tip": "Show a dot where each photo was taken.",
-       "rect": [
-        688,
-        48,
-        151,
-        18
        ],
        "section": ""
       }
@@ -3540,185 +3302,19 @@ window.GUIDE_DATA = {
      "img": "shots/en/map_3.png",
      "w": 1275,
      "h": 812,
-     "sections": [
-      {
-       "id": "s1",
-       "title": "Measure",
-       "tip": "Click to fold this group open or closed.",
-       "rect": [
-        18,
-        49,
-        372,
-        273
-       ]
-      },
-      {
-       "id": "s2",
-       "title": "DSM",
-       "tip": "Click to fold this group open or closed.",
-       "rect": [
-        18,
-        328,
-        372,
-        214
-       ]
-      },
-      {
-       "id": "s3",
-       "title": "Measurements",
-       "tip": "Click to fold this group open or closed.",
-       "rect": [
-        18,
-        548,
-        372,
-        255
-       ]
-      }
-     ],
+     "sections": [],
      "controls": [
       {
        "id": "c1",
-       "label": "",
-       "tip": "Pan",
+       "label": "📂 Import orthophoto (GeoTIFF)…",
+       "tip": "Load a georeferenced orthophoto (GeoTIFF), e.g. odm_orthophoto.tif from WebODM.",
        "rect": [
-        35,
-        94,
-        32,
-        28
-       ],
-       "section": "s1"
-      },
-      {
-       "id": "c2",
-       "label": "",
-       "tip": "Distance",
-       "rect": [
-        69,
-        94,
-        32,
-        28
-       ],
-       "section": "s1"
-      },
-      {
-       "id": "c3",
-       "label": "",
-       "tip": "Area",
-       "rect": [
-        103,
-        94,
-        32,
-        28
-       ],
-       "section": "s1"
-      },
-      {
-       "id": "c4",
-       "label": "",
-       "tip": "Height",
-       "rect": [
-        137,
-        94,
-        32,
-        28
-       ],
-       "section": "s1"
-      },
-      {
-       "id": "c5",
-       "label": "",
-       "tip": "Volume",
-       "rect": [
-        171,
-        94,
-        32,
-        28
-       ],
-       "section": "s1"
-      },
-      {
-       "id": "c6",
-       "label": "",
-       "tip": "Profile",
-       "rect": [
-        205,
-        94,
-        32,
-        28
-       ],
-       "section": "s1"
-      },
-      {
-       "id": "c7",
-       "label": "",
-       "tip": "Checkpoint",
-       "rect": [
-        239,
-        94,
-        32,
-        28
-       ],
-       "section": "s1"
-      },
-      {
-       "id": "c8",
-       "label": "Base level for volume",
-       "tip": "What the volume is measured against: the outline's mean height, the lowest point, or a fixed level.",
-       "rect": [
-        32,
-        238,
-        344,
-        32
-       ],
-       "section": "s1"
-      },
-      {
-       "id": "c9",
-       "label": "Import elevation model (DSM)…",
-       "tip": "Load an elevation model (float GeoTIFF), e.g. dsm.tif from WebODM.",
-       "rect": [
-        32,
-        430,
-        209,
+        526,
+        368,
+        223,
         34
        ],
-       "section": "s2"
-      },
-      {
-       "id": "c10",
-       "label": "Remove DSM",
-       "tip": "Remove the elevation model from the project.",
-       "rect": [
-        247,
-        430,
-        129,
-        34
-       ],
-       "section": "s2"
-      },
-      {
-       "id": "c11",
-       "label": "Contour interval (m)",
-       "tip": "Distance between contour lines in metres.",
-       "rect": [
-        32,
-        494,
-        60,
-        34
-       ],
-       "section": "s2"
-      },
-      {
-       "id": "c12",
-       "label": "Export contours (DXF)…",
-       "tip": "Save contour lines from the elevation model as a DXF file for CAD or QGIS.",
-       "rect": [
-        98,
-        494,
-        278,
-        34
-       ],
-       "section": "s2"
+       "section": ""
       }
      ],
      "tab": "Measure"

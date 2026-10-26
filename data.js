@@ -1638,7 +1638,7 @@ window.GUIDE_DATA = {
        "label": "📂 Importér ortofoto (GeoTIFF)…",
        "tip": "Indlæs et georefereret ortofoto (GeoTIFF), fx odm_orthophoto.tif fra WebODM.",
        "rect": [
-        530,
+        332,
         366,
         216,
         34
@@ -3582,7 +3582,7 @@ window.GUIDE_DATA = {
        "label": "📂 Import orthophoto (GeoTIFF)…",
        "tip": "Load a georeferenced orthophoto (GeoTIFF), e.g. odm_orthophoto.tif from WebODM.",
        "rect": [
-        526,
+        347,
         366,
         223,
         34

@@ -1644,6 +1644,30 @@ window.GUIDE_DATA = {
         34
        ],
        "section": ""
+      },
+      {
+       "id": "c2",
+       "label": "📥 Importér resultatmappe…",
+       "tip": "Vælg mappen med et processeringsresultat (OpenDroneMap / WebODM, RealityScan ...): ortofoto, højdemodel og 3D-filer findes automatisk.",
+       "rect": [
+        554,
+        366,
+        194,
+        34
+       ],
+       "section": ""
+      },
+      {
+       "id": "c3",
+       "label": "📥 Importér WebODM-zip…",
+       "tip": "Vælg all.zip fra WebODM (Download Assets, All Assets). Den pakkes ud ved siden af zip-filen, og filerne findes automatisk.",
+       "rect": [
+        754,
+        366,
+        190,
+        34
+       ],
+       "section": ""
       }
      ],
      "tab": "Ortofoto"
@@ -3585,6 +3609,30 @@ window.GUIDE_DATA = {
         347,
         366,
         223,
+        34
+       ],
+       "section": ""
+      },
+      {
+       "id": "c2",
+       "label": "📥 Import result folder…",
+       "tip": "Choose the folder with a processing result (OpenDroneMap / WebODM, RealityScan ...): the orthophoto, elevation model and 3D files are found for you.",
+       "rect": [
+        576,
+        366,
+        169,
+        34
+       ],
+       "section": ""
+      },
+      {
+       "id": "c3",
+       "label": "📥 Import WebODM zip…",
+       "tip": "Choose the all.zip from WebODM (Download Assets, All Assets). It is unpacked next to the zip and the files are found for you.",
+       "rect": [
+        751,
+        366,
+        177,
         34
        ],
        "section": ""

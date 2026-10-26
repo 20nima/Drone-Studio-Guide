@@ -34,7 +34,8 @@ da: {
     },
     photos: {
       lead: "Importér fotos og video fra flyvningen, og sortér hvad der skal med i rapporten.",
-      steps: ["Tryk <b>Importér fotos / video…</b>. Du vælger, om filerne kopieres ind i projektet eller bare linkes.",
+      steps: ["Tryk <b>Importér fotos / video…</b> og peg på SD-kortet eller en mappe. Programmet læser, hvornår hvert foto er taget, og samler dem i <b>sessioner</b> (en ny session starter efter en pause på 3 timer – kan ændres). Hver session vises som et kort med miniaturer og et <b>forslag</b> til type (kortlægning, 3D, inspektion eller uafklaret). Forslaget ændrer aldrig dine fotos, og du kan rette det med <i>Ret</i>.",
+              "Sæt kryds ved de sessioner, der hører til projektet, og vælg, om filerne kopieres ind i projektet eller linkes. Når kun nogle sessioner er valgt, kopieres de. Har projektet flere sessioner, vælger du i feltet over listen, hvilken du vil se; menuen ved siden af lader dig navngive den, rette typen og ændre pausen.",
               "Gå fotoene igennem: <b>→</b> = brug, <b>←</b> = brug ikke. Mellemrum afspiller en video.",
               "Giv ét godt foto af hele taget en <b>stjerne</b>: det bliver oversigtsbilledet med nummererede nåle forrest i rapporten. Der er kun ét – det står med ★ i listen, og stjerneknappen lyser, når du står på det.",
               "Panelet til højre: en <b>note</b> til fotoet, hvilken <b>bygningsdel</b> det viser, og om det er skarpt og godt belyst.",
@@ -161,7 +162,8 @@ en: {
     },
     photos: {
       lead: "Import the photos and videos from the flight and sort out what goes into the report.",
-      steps: ["Press <b>Import photos / video…</b>. You choose whether the files are copied into the project or just linked.",
+      steps: ["Press <b>Import photos / video…</b> and point to the SD card or a folder. The app reads when each photo was taken and groups them into <b>sessions</b> (a new session starts after a pause of 3 hours – you can change that). Each session is a card with thumbnails and a <b>suggestion</b> of its kind (mapping, 3D, inspection or unclear). The suggestion never changes your photos, and you can correct it with <i>Change</i>.",
+              "Tick the sessions that belong to the project, and choose whether the files are copied into the project or linked. When only some sessions are ticked they are copied. If the project holds several sessions, pick the one to show in the field above the list; the menu next to it lets you name it, change its kind and change the pause.",
               "Go through the photos: <b>→</b> = use, <b>←</b> = don't use. Space plays a video.",
               "Give one good photo of the whole roof a <b>star</b>: it becomes the overview with numbered pins at the front of the report. There is one – it has a ★ in the list, and the star button is lit when you are on it.",
               "The panel on the right: a <b>note</b> for the photo, which <b>building part</b> it shows, and whether it is sharp and well exposed.",

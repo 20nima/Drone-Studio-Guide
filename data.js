@@ -1286,9 +1286,9 @@ window.GUIDE_DATA = {
       {
        "id": "c10",
        "label": "",
-       "tip": "✂ Beskær",
+       "tip": "Lup",
        "rect": [
-        471,
+        459,
         6,
         32,
         28
@@ -1298,7 +1298,7 @@ window.GUIDE_DATA = {
       {
        "id": "c11",
        "label": "",
-       "tip": "▒ Slør",
+       "tip": "✂ Beskær",
        "rect": [
         505,
         6,
@@ -1310,7 +1310,7 @@ window.GUIDE_DATA = {
       {
        "id": "c12",
        "label": "",
-       "tip": "Fjern beskær / slør ▾",
+       "tip": "▒ Slør",
        "rect": [
         539,
         6,
@@ -1322,9 +1322,9 @@ window.GUIDE_DATA = {
       {
        "id": "c13",
        "label": "",
-       "tip": "⭐ Brug dette foto som oversigt",
+       "tip": "Fjern beskær / slør ▾",
        "rect": [
-        585,
+        573,
         6,
         32,
         28
@@ -1333,6 +1333,18 @@ window.GUIDE_DATA = {
       },
       {
        "id": "c14",
+       "label": "",
+       "tip": "⭐ Brug dette foto som oversigt",
+       "rect": [
+        619,
+        6,
+        32,
+        28
+       ],
+       "section": ""
+      },
+      {
+       "id": "c15",
        "label": "",
        "tip": "Fjern fra storyboard",
        "rect": [
@@ -1344,7 +1356,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c15",
+       "id": "c16",
        "label": "Storyboard (2 stykker · 0:36)",
        "tip": "Træk for at ændre rækkefølgen · Delete fjerner · dobbeltklik åbner",
        "rect": [
@@ -1356,7 +1368,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c16",
+       "id": "c17",
        "label": "Kun udvalgte fotos",
        "tip": "Vis kun de fotos, du har valgt til rapporten.",
        "rect": [
@@ -3077,9 +3089,9 @@ window.GUIDE_DATA = {
       {
        "id": "c9",
        "label": "",
-       "tip": "✂ Crop",
+       "tip": "Loupe",
        "rect": [
-        471,
+        459,
         6,
         32,
         28
@@ -3089,7 +3101,7 @@ window.GUIDE_DATA = {
       {
        "id": "c10",
        "label": "",
-       "tip": "▒ Blur",
+       "tip": "✂ Crop",
        "rect": [
         505,
         6,
@@ -3101,7 +3113,7 @@ window.GUIDE_DATA = {
       {
        "id": "c11",
        "label": "",
-       "tip": "Undo crop / blur ▾",
+       "tip": "▒ Blur",
        "rect": [
         539,
         6,
@@ -3113,9 +3125,9 @@ window.GUIDE_DATA = {
       {
        "id": "c12",
        "label": "",
-       "tip": "⭐ Use this photo as the overview",
+       "tip": "Undo crop / blur ▾",
        "rect": [
-        585,
+        573,
         6,
         32,
         28
@@ -3124,6 +3136,18 @@ window.GUIDE_DATA = {
       },
       {
        "id": "c13",
+       "label": "",
+       "tip": "⭐ Use this photo as the overview",
+       "rect": [
+        619,
+        6,
+        32,
+        28
+       ],
+       "section": ""
+      },
+      {
+       "id": "c14",
        "label": "",
        "tip": "Remove from the storyboard",
        "rect": [
@@ -3135,7 +3159,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c14",
+       "id": "c15",
        "label": "Storyboard (2 pieces · 0:36)",
        "tip": "Drag to change the order · Delete removes · double-click opens",
        "rect": [
@@ -3147,7 +3171,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c15",
+       "id": "c16",
        "label": "Only selected photos",
        "tip": "Show only the photos you selected for the report.",
        "rect": [

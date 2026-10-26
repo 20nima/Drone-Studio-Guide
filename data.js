@@ -7,7 +7,7 @@ window.GUIDE_DATA = {
    "photos": "Foto & Video",
    "mark": "Værksted",
    "thermal": "Termografi",
-   "map": "3D & kort",
+   "map": "Mapping & 3D",
    "report": "Layout & Rapport"
   },
   "pages": {
@@ -1520,6 +1520,39 @@ window.GUIDE_DATA = {
      "sections": [
       {
        "id": "s1",
+       "title": "Guide",
+       "tip": "",
+       "rect": [
+        9,
+        40,
+        495,
+        650
+       ]
+      }
+     ],
+     "controls": [
+      {
+       "id": "c1",
+       "label": "Brug i flyveplan",
+       "tip": "Sætter rutetype og overlap til dette job og åbner flyveplanen. Højde, fart og kamera forbliver, som du har sat dem.",
+       "rect": [
+        23,
+        582,
+        115,
+        34
+       ],
+       "section": "s1"
+      }
+     ],
+     "tab": "Guide"
+    },
+    {
+     "img": "shots/da/map_2.png",
+     "w": 1275,
+     "h": 812,
+     "sections": [
+      {
+       "id": "s1",
        "title": "Optagesæt",
        "tip": "Klik for at folde gruppen ud eller ind.",
        "rect": [
@@ -1595,7 +1628,7 @@ window.GUIDE_DATA = {
      "tab": "Optagesæt"
     },
     {
-     "img": "shots/da/map_2.png",
+     "img": "shots/da/map_3.png",
      "w": 1275,
      "h": 812,
      "sections": [],
@@ -1616,7 +1649,7 @@ window.GUIDE_DATA = {
      "tab": "Ortofoto"
     },
     {
-     "img": "shots/da/map_3.png",
+     "img": "shots/da/map_4.png",
      "w": 1275,
      "h": 812,
      "sections": [],
@@ -1918,7 +1951,7 @@ window.GUIDE_DATA = {
    "photos": "Photos & Video",
    "mark": "Workshop",
    "thermal": "Thermography",
-   "map": "3D & map",
+   "map": "Mapping & 3D",
    "report": "Layout & Report"
   },
   "pages": {
@@ -3431,6 +3464,39 @@ window.GUIDE_DATA = {
      "sections": [
       {
        "id": "s1",
+       "title": "Guide",
+       "tip": "",
+       "rect": [
+        9,
+        40,
+        505,
+        650
+       ]
+      }
+     ],
+     "controls": [
+      {
+       "id": "c1",
+       "label": "Use in flight plan",
+       "tip": "Sets the route type and overlaps for this job and opens the flight plan. Height, speed and camera stay as you set them.",
+       "rect": [
+        23,
+        582,
+        123,
+        34
+       ],
+       "section": "s1"
+      }
+     ],
+     "tab": "Guide"
+    },
+    {
+     "img": "shots/en/map_2.png",
+     "w": 1275,
+     "h": 812,
+     "sections": [
+      {
+       "id": "s1",
        "title": "Capture set",
        "tip": "Click to fold this group open or closed.",
        "rect": [
@@ -3506,7 +3572,7 @@ window.GUIDE_DATA = {
      "tab": "Capture set"
     },
     {
-     "img": "shots/en/map_2.png",
+     "img": "shots/en/map_3.png",
      "w": 1275,
      "h": 812,
      "sections": [],
@@ -3527,7 +3593,7 @@ window.GUIDE_DATA = {
      "tab": "Orthophoto"
     },
     {
-     "img": "shots/en/map_3.png",
+     "img": "shots/en/map_4.png",
      "w": 1275,
      "h": 812,
      "sections": [],

@@ -70,7 +70,7 @@ da: {
     map: {
       lead: "Mapping og 3D: fra flyveplan til ortofoto, højdemodel og 3D-model. Fotogrammetri betyder at måle ud fra overlappende fotos – flyvningen afgør, om du leverer et kort (2D) eller en 3D-model.",
       tabs: ["<b>Guide</b>: vælg, hvad du laver (kortlægning, 3D af bygning, 3D af objekt, facade) og få flyveindstillinger og en tjekliste. <i>Brug i flyveplan</i> sætter rutetype og overlap og åbner Flyveplan.",
-             "<b>Optagesæt</b>: analysér fotoene (dækning og slørede billeder) og eksportér et rent sæt til WebODM, RealityScan eller COLMAP. Programmet laver ikke selv 3D-modellen.",
+             "<b>Optagesæt</b>: analysér fotoene (dækning, slørede billeder, fart, huller og højde – programmet viser, hvad der bør rettes før processering) og eksportér et rent sæt til WebODM, RealityScan eller COLMAP. Programmet laver ikke selv 3D-modellen.",
              "<b>Ortofoto</b>: importér et GeoTIFF fra fx WebODM. Fund kan placeres automatisk på kortet ud fra fotoenes position.",
              "<b>Måle</b>: afstand, areal, højde, volumen og profil – højde og volumen kræver en højdemodel (DSM). Kontrolpunkter viser, hvor nøjagtigt kortet er."],
       steps: ["<b>Vælg opgaven</b> i fanen Guide og tryk <i>Brug i flyveplan</i>. Kortlægning (2D) giver ortofoto, højdemodel og volumen; 3D-model giver mesh og punktsky.",
@@ -196,7 +196,7 @@ en: {
     map: {
       lead: "Mapping & 3D: from flight plan to orthophoto, elevation model and 3D model. Photogrammetry means measuring from overlapping photos – the flight decides whether you deliver a map (2D) or a 3D model.",
       tabs: ["<b>Guide</b>: choose what you are making (mapping, 3D of a building, 3D of an object, facade) and get flight settings and a checklist. <i>Use in flight plan</i> sets the route type and overlap and opens Flight plan.",
-             "<b>Capture set</b>: analyse the photos (coverage and blurry ones) and export a clean set for WebODM, RealityScan or COLMAP. The app does not build the 3D model itself.",
+             "<b>Capture set</b>: analyse the photos (coverage, blurry ones, speed, gaps and height – the app lists what to fix before processing) and export a clean set for WebODM, RealityScan or COLMAP. The app does not build the 3D model itself.",
              "<b>Orthophoto</b>: import a GeoTIFF from e.g. WebODM. Findings can be placed on it automatically from the photos' positions.",
              "<b>Measure</b>: distance, area, height, volume and profile – height and volume need an elevation model (DSM). Control points show how accurate the map is."],
       steps: ["<b>Choose the job</b> in the Guide tab and press <i>Use in flight plan</i>. Mapping (2D) gives an orthophoto, elevation model and volume; a 3D model gives a mesh and point cloud.",

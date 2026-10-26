@@ -47,7 +47,7 @@ da: {
       lead: "Værkstedet: her markerer du fund på fotoene og skriver det, der står i rapporten.",
       steps: ["Vælg et foto i listen til venstre (som standard kun de udvalgte).",
               "Tryk <b>+</b> eller vælg et værktøj (cirkel, rektangel, pil, nål) og træk på fotoet.",
-              "Udfyld <b>Fund</b>: titel, kategori, standardtekst, bygningsdel og alvor. En standardtekst udfylder observation, betydning, anbefaling og alvor på én gang.",
+              "Udfyld <b>Fund</b>: vælg kategori, og brug evt. <b>Standardfund</b>: et færdigt standardfund udfylder titel, observation, betydning, anbefaling og alvor på én gang. <b>Titel</b> er overskriften i rapporten; selve beskrivelsen af skaden står under Observation.",
               "Under <b>Beskrivelse og anbefaling</b> kan du rette teksterne. <i>Ingen markering</i> bruges, når fundet gælder hele fladen.",
               "Under <b>Rapport</b> knytter du fotoet til en bygningsdel og giver delen sin tilstand og én fælles tekst – også når alt er i orden.",
               "Video: sæt på pause og markér for at få et stillbillede. Tidslinjen trimmer (S deler, Delete fjerner et stykke), og stykker kan samles i et storyboard."],
@@ -55,7 +55,7 @@ da: {
              "<b>Lup-værktøjet</b> viser en detalje forstørret på selve fotoet: klik på detaljen, og træk den store cirkel hen, hvor den ikke dækker noget. Luppen er ikke et fund, men vises i rapporten, hvor hele fotoet vises (oversigt, bygningsdele, galleri). Delete fjerner den.",
              "<b>AI-forslag</b> foreslår fund; du godkender hvert enkelt, og de mærkes i rapporten.",
              "Musehjulet zoomer, midter- eller højreklik og træk panorerer.",
-             "Beskær og slør ændrer kun billedet i rapporten – aldrig selve filen.",
+             "Beskær og slør ændrer kun billedet i rapporten – aldrig selve filen. Sløringen vises på skærmen, som den bliver i rapporten, også mens du trækker i rektanglet.",
              "… -menuen: <i>Flyt nåle</i> på oversigtskortet, <i>Placér på oversigt</i> og en anden oversigt (fx bagsiden af taget)."]
     },
     thermal: {
@@ -165,7 +165,7 @@ en: {
       lead: "The Workshop: mark findings on the photos and write what the report says.",
       steps: ["Pick a photo in the list on the left (only the selected ones by default).",
               "Press <b>+</b> or choose a tool (circle, rectangle, arrow, pin) and drag on the photo.",
-              "Fill in <b>Finding</b>: title, category, standard wording, building part and severity. A standard wording fills observation, significance, recommendation and severity at once.",
+              "Fill in <b>Finding</b>: choose the category, and optionally use <b>Standard finding</b>: a ready-made standard finding fills in title, observation, significance, recommendation and severity at once. <b>Title</b> is the heading in the report; the description of the damage itself goes under Observation.",
               "Under <b>Description and recommendation</b> you can edit the texts. <i>No marker</i> is for a finding that covers the whole surface.",
               "Under <b>Report</b> you link the photo to a building part and give the part its condition and one shared text – also when all is fine.",
               "Video: pause and mark to get a still. The timeline trims (S splits, Delete removes a piece), and pieces can be joined in a storyboard."],
@@ -173,7 +173,7 @@ en: {
              "The <b>Loupe tool</b> shows a detail enlarged on the photo itself: click the detail and drag the big circle to where it covers nothing. A loupe is not a finding, but it shows in the report wherever the whole photo is shown (overview, building parts, gallery). Delete removes it.",
              "<b>AI suggestions</b> propose findings; you approve each one, and they are labelled in the report.",
              "The mouse wheel zooms; middle or right drag pans.",
-             "Crop and blur change only the picture in the report – never the file itself.",
+             "Crop and blur change only the picture in the report – never the file itself. The blur is shown on screen as it will be in the report, also while you drag the rectangle.",
              "The … menu: <i>Move pins</i> on the overview, <i>Place on overview</i> and a second overview (e.g. the back of the roof)."]
     },
     thermal: {

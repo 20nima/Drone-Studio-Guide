@@ -1180,51 +1180,63 @@ window.GUIDE_DATA = {
        "label": "Kategori",
        "tip": "Hvilken slags fund det er (mos, revnet tagsten, inddækning ...). Bygningsdelen vælges nedenfor.",
        "rect": [
-        966,
-        380,
-        295,
+        965,
+        342,
+        296,
         32
        ],
        "section": "s1"
       },
       {
        "id": "c2",
-       "label": "Standardtekst",
-       "tip": "Udfyld observation, risiko, anbefaling og alvor med objektiv standardtekst for kategorien. Du kan rette alt bagefter (Ctrl+Z fortryder).",
+       "label": "Standardfund",
+       "tip": "Et færdigt standardfund til kategorien ovenfor: når du vælger et, udfyldes titel, observation, betydning, anbefaling og alvor på én gang. Det er en genvej, ikke et felt – der gemmes intet under dette navn.",
        "rect": [
-        966,
-        418,
-        295,
+        965,
+        380,
+        296,
         32
        ],
        "section": "s1"
       },
       {
        "id": "c3",
-       "label": "Bygningsdel",
-       "tip": "Hvilken del af bygningen fundet sidder på (Skorsten, Tagflade, Rygning …). Rapporten kan gruppere fund efter den. Du kan skrive din egen, fx ‘Skorsten 2’.",
+       "label": "Titel",
+       "tip": "Fundets navn: overskriften på dets side i rapporten og i tabellen på forsiden, fx 'Revnet rygningssten'. Selve beskrivelsen af skaden skriver du under Observation.",
        "rect": [
-        966,
-        456,
-        295,
+        965,
+        418,
+        296,
         32
        ],
        "section": "s1"
       },
       {
        "id": "c4",
-       "label": "Alvor",
-       "tip": "Kritisk: Synlig skade, som efter inspektørens vurdering bør ses på af en fagperson hurtigst muligt.\nBør udbedres: Synlig skade eller slid, som bør undersøges af en fagperson og udbedres inden for rimelig tid.\nFølges: Værd at holde øje med. Ingen handling nu; se på det igen ved næste eftersyn.\nOK / Notat: I orden, eller en neutral note til dokumentationen.",
+       "label": "Bygningsdel",
+       "tip": "Hvilken del af bygningen fundet sidder på (Skorsten, Tagflade, Rygning …). Rapporten kan gruppere fund efter den. Du kan skrive din egen, fx ‘Skorsten 2’.",
        "rect": [
-        966,
-        494,
-        295,
+        965,
+        456,
+        296,
         32
        ],
        "section": "s1"
       },
       {
        "id": "c5",
+       "label": "Alvor",
+       "tip": "Kritisk: Synlig skade, som efter inspektørens vurdering bør ses på af en fagperson hurtigst muligt.\nBør udbedres: Synlig skade eller slid, som bør undersøges af en fagperson og udbedres inden for rimelig tid.\nFølges: Værd at holde øje med. Ingen handling nu; se på det igen ved næste eftersyn.\nOK / Notat: I orden, eller en neutral note til dokumentationen.",
+       "rect": [
+        965,
+        494,
+        296,
+        32
+       ],
+       "section": "s1"
+      },
+      {
+       "id": "c6",
        "label": "Observation",
        "tip": "Beskrivelse til kunden.",
        "rect": [
@@ -1236,7 +1248,7 @@ window.GUIDE_DATA = {
        "section": "s2"
       },
       {
-       "id": "c6",
+       "id": "c7",
        "label": "",
        "tip": "Ny markering\nTilføj en markering midt i fotoet med det valgte værktøj.",
        "rect": [
@@ -1248,7 +1260,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c7",
+       "id": "c8",
        "label": "",
        "tip": "AI-forslag…\nLad en AI kigge på fotos og foreslå mulige skader. Du godkender hvert forslag; intet tilføjes automatisk.",
        "rect": [
@@ -1260,7 +1272,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c8",
+       "id": "c9",
        "label": "",
        "tip": "Ret listen: duplikér, slet, flyt, sortér, slå sammen … (også ved højreklik i listen)",
        "rect": [
@@ -1272,7 +1284,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c9",
+       "id": "c10",
        "label": "",
        "tip": "Vælg / flyt\nVælg og flyt markeringer.",
        "rect": [
@@ -1284,7 +1296,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c10",
+       "id": "c11",
        "label": "",
        "tip": "Ring\nTegn en cirkel om et sted: klik i midten og træk ud.",
        "rect": [
@@ -1296,7 +1308,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c11",
+       "id": "c12",
        "label": "",
        "tip": "Boks\nTegn et rektangel: træk fra hjørne til hjørne. Drej det med den runde knap over det (Shift: trin på 15°), så det ligger langs en rygning eller revne.",
        "rect": [
@@ -1308,7 +1320,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c12",
+       "id": "c13",
        "label": "",
        "tip": "Pil\nTegn en pil, der peger på en detalje.",
        "rect": [
@@ -1320,7 +1332,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c13",
+       "id": "c14",
        "label": "",
        "tip": "Pin\nSæt en nål på ét enkelt sted.",
        "rect": [
@@ -1332,7 +1344,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c14",
+       "id": "c15",
        "label": "",
        "tip": "Lup\nLup: klik på en detalje for at vise den forstørret på fotoet (en lille cirkel, en streg og en stor cirkel). Et hjælpemiddel, ikke et fund – den vises i rapporten, hvor hele fotoet vises (oversigt, bygningsdele, galleri).",
        "rect": [
@@ -1344,7 +1356,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c15",
+       "id": "c16",
        "label": "",
        "tip": "Beskær\nBeskær: der kommer et rektangel på billedet. Træk i kanterne, og tryk OK. Kun den del bruges i rapporten; filen ændres ikke.",
        "rect": [
@@ -1356,7 +1368,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c16",
+       "id": "c17",
        "label": "",
        "tip": "Slør\nSlør et område (fx en nabos vindue): der kommer et rektangel; placer det, og tryk OK. Tryk igen for flere områder.",
        "rect": [
@@ -1368,7 +1380,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c17",
+       "id": "c18",
        "label": "",
        "tip": "Fjern beskær / slør\nFjern beskæringen eller den seneste sløring fra dette foto / denne video igen.",
        "rect": [
@@ -1380,7 +1392,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c18",
+       "id": "c19",
        "label": "",
        "tip": "Brug dette foto som oversigt\nBrug dette foto som oversigtsbillede øverst i rapporten.",
        "rect": [
@@ -1392,7 +1404,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c19",
+       "id": "c20",
        "label": "",
        "tip": "Fjern fra storyboard",
        "rect": [
@@ -1404,7 +1416,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c20",
+       "id": "c21",
        "label": "Storyboard (2 stykker · 0:36)",
        "tip": "Træk for at ændre rækkefølgen · Delete fjerner · dobbeltklik åbner",
        "rect": [
@@ -1416,7 +1428,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c21",
+       "id": "c22",
        "label": "Kun udvalgte fotos",
        "tip": "Vis kun de fotos, du har valgt til rapporten.",
        "rect": [
@@ -3043,39 +3055,63 @@ window.GUIDE_DATA = {
        "label": "Category",
        "tip": "What kind of finding it is (moss, cracked tile, flashing ...). The building part is chosen below.",
        "rect": [
-        964,
-        380,
-        297,
+        983,
+        342,
+        278,
         32
        ],
        "section": "s1"
       },
       {
        "id": "c2",
-       "label": "Building part",
-       "tip": "Which part of the building the finding is on (Chimney, Roof surface, Ridge …). The report can group findings by it. You can type your own, e.g. ‘Chimney 2’.",
+       "label": "Standard finding",
+       "tip": "A ready-made finding for the category above: picking one fills in the title, observation, significance, recommendation and severity in one go. It is a shortcut, not a field – nothing is stored under this name.",
        "rect": [
-        964,
-        456,
-        297,
+        983,
+        380,
+        278,
         32
        ],
        "section": "s1"
       },
       {
        "id": "c3",
-       "label": "Severity",
-       "tip": "Critical: Visible damage that, in the inspector's view, should be looked at by a qualified tradesperson as soon as possible.\nShould be repaired: Visible damage or wear that should be examined by a qualified tradesperson and repaired within a reasonable time.\nMonitor: Worth keeping an eye on. No action needed now; look again at the next inspection.\nOK / Note: In order, or a neutral note for the record.",
+       "label": "Title",
+       "tip": "The finding's name: the heading on its page in the report and in the table on the front page, e.g. 'Cracked ridge tile'. Describe the damage itself under Observation.",
        "rect": [
-        964,
-        494,
-        297,
+        983,
+        418,
+        278,
         32
        ],
        "section": "s1"
       },
       {
        "id": "c4",
+       "label": "Building part",
+       "tip": "Which part of the building the finding is on (Chimney, Roof surface, Ridge …). The report can group findings by it. You can type your own, e.g. ‘Chimney 2’.",
+       "rect": [
+        983,
+        456,
+        278,
+        32
+       ],
+       "section": "s1"
+      },
+      {
+       "id": "c5",
+       "label": "Severity",
+       "tip": "Critical: Visible damage that, in the inspector's view, should be looked at by a qualified tradesperson as soon as possible.\nShould be repaired: Visible damage or wear that should be examined by a qualified tradesperson and repaired within a reasonable time.\nMonitor: Worth keeping an eye on. No action needed now; look again at the next inspection.\nOK / Note: In order, or a neutral note for the record.",
+       "rect": [
+        983,
+        494,
+        278,
+        32
+       ],
+       "section": "s1"
+      },
+      {
+       "id": "c6",
        "label": "Observation",
        "tip": "Description for the customer.",
        "rect": [
@@ -3087,7 +3123,7 @@ window.GUIDE_DATA = {
        "section": "s2"
       },
       {
-       "id": "c5",
+       "id": "c7",
        "label": "",
        "tip": "New marker\nAdd a marker in the middle of the photo with the chosen tool.",
        "rect": [
@@ -3099,7 +3135,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c6",
+       "id": "c8",
        "label": "",
        "tip": "AI suggestions…\nLet an AI look at the photos and suggest possible defects. You approve each suggestion; nothing is added automatically.",
        "rect": [
@@ -3111,7 +3147,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c7",
+       "id": "c9",
        "label": "",
        "tip": "Edit the list: duplicate, delete, move, sort, merge … (also on right-click in the list)",
        "rect": [
@@ -3123,7 +3159,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c8",
+       "id": "c10",
        "label": "",
        "tip": "Select / move\nSelect and move markers.",
        "rect": [
@@ -3135,7 +3171,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c9",
+       "id": "c11",
        "label": "",
        "tip": "Ring\nDraw a circle around a spot: click the centre and drag out.",
        "rect": [
@@ -3147,7 +3183,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c10",
+       "id": "c12",
        "label": "",
        "tip": "Box\nDraw a rectangle: drag from corner to corner. Turn it with the round knob above it (Shift: steps of 15°) so it lies along a ridge or a crack.",
        "rect": [
@@ -3159,7 +3195,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c11",
+       "id": "c13",
        "label": "",
        "tip": "Arrow\nDraw an arrow that points at a detail.",
        "rect": [
@@ -3171,7 +3207,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c12",
+       "id": "c14",
        "label": "",
        "tip": "Pin\nPlace a pin on a single spot.",
        "rect": [
@@ -3183,7 +3219,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c13",
+       "id": "c15",
        "label": "",
        "tip": "Loupe\nLoupe: click a detail to show it enlarged on the photo (a small circle, a line and a big circle). A visual aid, not a finding – it shows in the report wherever the whole photo is shown (overview, building parts, gallery).",
        "rect": [
@@ -3195,7 +3231,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c14",
+       "id": "c16",
        "label": "",
        "tip": "Crop\nCrop: a rectangle appears on the picture. Drag its edges, then OK. Only that part is used in the report; the file is not changed.",
        "rect": [
@@ -3207,7 +3243,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c15",
+       "id": "c17",
        "label": "",
        "tip": "Blur\nBlur an area (for example a neighbour’s window): a rectangle appears; place it, then OK. Press again for more areas.",
        "rect": [
@@ -3219,7 +3255,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c16",
+       "id": "c18",
        "label": "",
        "tip": "Undo crop / blur\nTake the crop or the last blur box off this photo / video again.",
        "rect": [
@@ -3231,7 +3267,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c17",
+       "id": "c19",
        "label": "",
        "tip": "Use this photo as the overview\nUse this photo as the overview picture at the top of the report.",
        "rect": [
@@ -3243,7 +3279,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c18",
+       "id": "c20",
        "label": "",
        "tip": "Remove from the storyboard",
        "rect": [
@@ -3255,7 +3291,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c19",
+       "id": "c21",
        "label": "Storyboard (2 pieces · 0:36)",
        "tip": "Drag to change the order · Delete removes · double-click opens",
        "rect": [
@@ -3267,7 +3303,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c20",
+       "id": "c22",
        "label": "Only selected photos",
        "tip": "Show only the photos you selected for the report.",
        "rect": [

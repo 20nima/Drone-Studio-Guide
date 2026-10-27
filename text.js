@@ -94,7 +94,11 @@ da: {
               "Vælg <b>layout</b>: Standard (2 fund pr. side), Stort (1 pr. side) eller Resumé (oversigt og tabel).",
               "Vælg <b>eksportindstillinger</b>: fotostørrelse, rapportsprog, PDF, videoer og hvad der ellers skal med.",
               "Tryk <b>Forhåndsvis i browser</b> for at se rapporten med det samme.",
-              "Tryk <b>Eksportér rapport</b> (øverst til højre eller Ctrl+E). Rapporten lander i projektets <i>export/report/latest</i>."],
+              "Tryk <b>Eksportér rapport</b> (øverst til højre eller Ctrl+E). Rapporten lander i projektets <i>export/report/latest</i>.",
+              "<b>Vis dit arbejde til nye kunder:</b> <i>Publicér eksempel-hjemmeside…</i> laver rapporten til en lille hjemmeside med en kort forside (overblik med pins, tre linjer, dine kontaktoplysninger), selve rapporten og en PDF. "
+              + "Du skriver, hvilken adresse og kunde offentligheden skal se (skriv fx «Rækkehus, Gentofte»), og bekræfter, at du må vise ejendommen. Kundens navn, telefon og e-mail kommer aldrig med, og siden er markeret <i>noindex</i>, så Google ikke viser den. "
+              + "<i>Lav den her og se den</i> laver siden i en mappe og åbner den, uden at noget lægges på nettet. <i>Lav den og udgiv</i> uploader den til dit GitHub-repository. "
+              + "Første gang: lav et tomt, offentligt repository på github.com, slå Pages til (Settings → Pages → main, / root), og indsæt adressen. Send derefter linket til tømrere og taglæggere. Med en GoatCounter-kode kan du se, hvor mange der åbnede det."],
       tips: ["PDF'en laves to gange, så tabellen på forsiden får det sidetal, hvert fund står på.",
              "Med <i>Auto-versionering</i> får hver eksport sin egen daterede mappe i stedet for at overskrive den forrige.",
              "Rapporten går bygningsdel for bygningsdel, når fotos er knyttet til bygningsdele i Værkstedet."]
@@ -225,7 +229,11 @@ en: {
               "Choose a <b>layout</b>: Standard (2 findings per page), Large (1 per page) or Summary (overview and table).",
               "Choose the <b>export settings</b>: photo size, report language, PDF, videos and what else to include.",
               "Press <b>Preview in browser</b> to see the report straight away.",
-              "Press <b>Export report</b> (top right or Ctrl+E). The report lands in the project's <i>export/report/latest</i>."],
+              "Press <b>Export report</b> (top right or Ctrl+E). The report lands in the project's <i>export/report/latest</i>.",
+              "<b>Show your work to new customers:</b> <i>Publish example website…</i> turns the report into a small website with a short front page (overview with pins, three lines, your contact details), the report itself and a PDF. "
+              + "You write which address and customer the public sees (e.g. «Terraced house, Gentofte») and confirm that you may show the property. The customer's name, phone and e-mail never come along, and the site is marked <i>noindex</i> so Google does not list it. "
+              + "<i>Make it here and look</i> makes the site in a folder and opens it without putting anything on the internet. <i>Make it and publish</i> uploads it to your GitHub repository. "
+              + "The first time: make an empty public repository on github.com, turn on Pages (Settings → Pages → main, / root) and paste the address. Then send the link to carpenters and roofers. With a GoatCounter code you can see how many opened it."],
       tips: ["The PDF is made twice, so the table on the front page gets the page number of each finding.",
              "With <i>Auto-versioning</i> every export gets its own dated folder instead of replacing the previous one.",
              "The report goes building part by building part when photos are linked to building parts in the Workshop."]

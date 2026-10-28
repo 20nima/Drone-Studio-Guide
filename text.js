@@ -60,7 +60,8 @@ da: {
              "<b>AI-forslag</b> foreslår fund; du godkender hvert enkelt, og de mærkes i rapporten.",
              "Musehjulet zoomer, midter- eller højreklik og træk panorerer.",
              "Beskær og slør ændrer kun billedet i rapporten – aldrig selve filen. Sløringen vises på skærmen, som den bliver i rapporten, også mens du trækker i rektanglet.",
-             "… -menuen: <i>Flyt nåle</i> på oversigtskortet, <i>Placér på oversigt</i> og en anden oversigt (fx bagsiden af taget)."]
+             "… -menuen: <i>Flyt nåle</i> på oversigtskortet, <i>Placér på oversigt</i> og en anden oversigt (fx bagsiden af taget).",
+             "<b>Nærbillede + nål på oversigten:</b> lav fundet på nærbilledet (firkant om skaden), vælg <i>… → Placér på oversigt</i> og klik på stedet på oversigtsbilledet. Du bliver på oversigten, og fundets nummererede nål står nu dér (fundet får 📍 i listen). Et klik på nålen åbner fundet og dets nærbillede igen. Slet et eventuelt dobbelt fund, du før lavede direkte på oversigten – ellers har stedet to numre."]
     },
     thermal: {
       lead: "Termografi fra en termisk drone: billedpar, fund med temperaturer, måleforhold, plan og skimmelrisiko.",
@@ -195,7 +196,8 @@ en: {
              "<b>AI suggestions</b> propose findings; you approve each one, and they are labelled in the report.",
              "The mouse wheel zooms; middle or right drag pans.",
              "Crop and blur change only the picture in the report – never the file itself. The blur is shown on screen as it will be in the report, also while you drag the rectangle.",
-             "The … menu: <i>Move pins</i> on the overview, <i>Place on overview</i> and a second overview (e.g. the back of the roof)."]
+             "The … menu: <i>Move pins</i> on the overview, <i>Place on overview</i> and a second overview (e.g. the back of the roof).",
+             "<b>Close-up + pin on the overview:</b> make the finding on the close-up (a box around the damage), choose <i>… → Place on overview</i> and click the spot on the overview photo. You stay on the overview and the finding's numbered pin is there now (the finding gets 📍 in the list). A click on the pin opens the finding and its close-up again. Delete any duplicate finding you made directly on the overview earlier – otherwise the spot has two numbers."]
     },
     thermal: {
       lead: "Thermography from a thermal drone: image pairs, findings with temperatures, conditions, plan and mould risk.",

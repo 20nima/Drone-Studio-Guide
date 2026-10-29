@@ -1430,7 +1430,7 @@ window.GUIDE_DATA = {
       {
        "id": "c20",
        "label": "",
-       "tip": "Slør\nSlør et område (fx en nabos vindue): der kommer et rektangel; placer det, og tryk OK. Hold Alt nede og træk i et hjørne for kun at flytte det hjørne (en fri firkant). Klik på en sløring, der allerede er der, for at rette eller slette den. Tryk igen for flere områder.",
+       "tip": "Slør\nSlør et område (fx en nabos vindue): der kommer et rektangel; placer det, og tryk OK. Hold Alt nede og træk i et hjørne for kun at flytte det hjørne (en fri firkant). Klik på en sløring, der allerede er der, for at rette eller slette den. På en video får knappen Følg bevægelse sløringen til at følge billedet, mens kameraet flytter sig. Tryk igen for flere områder.",
        "rect": [
         539,
         6,
@@ -3422,7 +3422,7 @@ window.GUIDE_DATA = {
       {
        "id": "c20",
        "label": "",
-       "tip": "Blur\nBlur an area (for example a neighbour’s window): a rectangle appears; place it, then OK. Hold Alt and drag a corner to pull that corner alone (a free four-sided shape). Click a blur that is already there to change or delete it. Press again for more areas.",
+       "tip": "Blur\nBlur an area (for example a neighbour’s window): a rectangle appears; place it, then OK. Hold Alt and drag a corner to pull that corner alone (a free four-sided shape). Click a blur that is already there to change or delete it. On a video, the button Follow movement makes the blur follow the picture while the camera moves. Press again for more areas.",
        "rect": [
         539,
         6,

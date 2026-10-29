@@ -18,7 +18,8 @@ da: {
               "<b>Ejendom</b> (bygningstype, tagform, tagdækning …) og <b>flyveloggen</b> står bagerst i rapporten. Flyveloggen kan beregnes fra fotoene."],
       tips: ["Der er 50 gratis CVR-opslag om dagen. Er de brugt, åbner … -menuen virk.dk med din søgetekst.",
              "En <b>jobskabelon</b> udfylder rapporttekst, flyveplan og layout til en bestemt type job. Det, du har skrevet, bliver ikke overskrevet.",
-             "<b>Rediger projekt…</b> øverst til højre ændrer navn, adresse, dato og kunde – også projektmappens navn."]
+             "<b>Rediger projekt…</b> øverst til højre ændrer navn, adresse, dato og kunde – også projektmappens navn.",
+             "<b>Størrelse på programmet:</b> tandhjulet (⚙) har en skala fra 85 % til 200 %, der skalerer hele programmet. Ændringen træder i kraft efter en genstart, og programmet spørger, om det skal genstarte nu."]
     },
     plan: {
       lead: "Planlæg flyvningen, før du tager ud: tegn området, vælg rutetype og send ruten til DJI Fly.",
@@ -60,6 +61,10 @@ da: {
              "<b>AI-forslag</b> foreslår fund; du godkender hvert enkelt, og de mærkes i rapporten.",
              "Musehjulet zoomer, midter- eller højreklik og træk panorerer.",
              "Beskær og slør ændrer kun billedet i rapporten – aldrig selve filen. Sløringen vises på skærmen, som den bliver i rapporten, også mens du trækker i rektanglet.",
+             "<b>En sløring kan rettes.</b> Klik på en sløring, der allerede er der, så kan du flytte den, trække i kanter og hjørner eller slette den (<i>Slet sløring</i> eller Delete – Delete sletter kun sløringen, aldrig fundet). Hold <b>Alt</b> nede og træk i et hjørne for kun at flytte det ene hjørne: så bliver sløringen en fri firkant, fx langs en skrå kant. På fotos sløres præcis firkanten; i en video sløres rektanglet omkring den (lidt mere, aldrig mindre).",
+             "<b>Fundlisten advarer</b>, hvis noget bør rettes før eksport: <i>uden titel</i>, <i>ingen pin på forsiden</i>, <i>få pixels: blødt i rapporten</i> (udsnittet har under 1200 pixel fra originalen – løsn beskæringen eller brug et nærmere foto) og <i>alvor og anbefaling passer ikke</i> (fx «Bør udbedres» med anbefalingen «følges ved næste eftersyn»). Advarslerne følger med, så snart du retter.",
+             "<b>Nyt fund uden markering</b> (… -menuen) laver et fund for hele fladen. Placér det på oversigten, så får det en pin. <b>Slå sammen</b> samler flere fund til ét: alle markeringer beholdes. De ekstra billeder står sidst i rapporten, og i PDF'en vises højst fire pr. fund (resten er i HTML-rapporten).",
+             "Et enkelt billede fra en video: tegn en markering på videoen, så gemmes billedet på det tidspunkt som et foto (med GPS, hvis der ligger en .SRT-fil ved siden af).",
              "… -menuen: <i>Flyt nåle</i> på oversigtskortet, <i>Placér på oversigt</i> og en anden oversigt (fx bagsiden af taget).",
              "<b>Nærbillede + nål på oversigten:</b> lav fundet på nærbilledet (firkant om skaden), vælg <i>… → Placér på oversigt</i> og klik på stedet på oversigtsbilledet. Du bliver på oversigten, og fundets nummererede nål står nu dér (fundet får 📍 i listen). Et klik på nålen åbner fundet og dets nærbillede igen. Slet et eventuelt dobbelt fund, du før lavede direkte på oversigten – ellers har stedet to numre."]
     },
@@ -102,7 +107,10 @@ da: {
               + "Første gang: lav et tomt, offentligt repository på github.com, slå Pages til (Settings → Pages → main, / root), og indsæt adressen. Send derefter linket til tømrere og taglæggere. Med en GoatCounter-kode kan du se, hvor mange der åbnede det."],
       tips: ["PDF'en laves to gange, så tabellen på forsiden får det sidetal, hvert fund står på.",
              "Med <i>Auto-versionering</i> får hver eksport sin egen daterede mappe i stedet for at overskrive den forrige.",
-             "Rapporten går bygningsdel for bygningsdel, når fotos er knyttet til bygningsdele i Værkstedet."]
+             "Rapporten går bygningsdel for bygningsdel, når fotos er knyttet til bygningsdele i Værkstedet.",
+             "<b>Forsiden</b> har tællere, <i>Bør ses først</i>, tilstand pr. bygningsdel (alle dele med fund; har du ikke sat en tilstand, vises det værste fund) og oversigtsbilledet. Flyvelog, metode, sagsoplysninger og forbehold står bagerst.",
+             "<b>Foreslå</b> på Projekt-siden skriver samlet vurdering og metode ud fra fundene. Et uændret forslag følger fundene i rapporten (metoden skrives igen fra projektet), og den automatiske samlede vurdering vises ikke. Retter du selv i teksten, står den, som du skrev den.",
+             "Tjeklisten siger også til, når et fund har få pixels, mangler pin på forsiden, eller alvor og anbefaling ikke passer sammen."]
     }
   },
   startPage: {
@@ -154,7 +162,8 @@ en: {
               "<b>Property</b> (building type, roof shape, roofing …) and the <b>flight log</b> are printed at the back. The flight log can be calculated from the photos."],
       tips: ["There are 50 free CVR lookups per day. When they are used up, the … menu opens virk.dk with your search text.",
              "A <b>job template</b> fills report text, flight plan and layout for one type of job. What you already wrote is kept.",
-             "<b>Edit project…</b> at the top right changes name, address, date and customer – the project folder's name too."]
+             "<b>Edit project…</b> at the top right changes name, address, date and customer – the project folder's name too.",
+             "<b>Size of the program:</b> the gear (⚙) has a scale from 85 % to 200 % that scales the whole program. The change takes effect after a restart, and the program asks whether to restart now."]
     },
     plan: {
       lead: "Plan the flight before you go: draw the area, choose the route type and send the route to DJI Fly.",
@@ -196,6 +205,10 @@ en: {
              "<b>AI suggestions</b> propose findings; you approve each one, and they are labelled in the report.",
              "The mouse wheel zooms; middle or right drag pans.",
              "Crop and blur change only the picture in the report – never the file itself. The blur is shown on screen as it will be in the report, also while you drag the rectangle.",
+             "<b>A blur can be changed.</b> Click a blur that is already there to move it, drag its edges and corners, or delete it (<i>Delete blur</i> or the Delete key – Delete removes only the blur, never the finding). Hold <b>Alt</b> and drag a corner to move just that corner: the blur then becomes a free four-sided shape, e.g. along a slanted edge. On photos exactly that shape is blurred; in a video the rectangle around it is blurred (a little more, never less).",
+             "<b>The finding list warns</b> about what should be fixed before export: <i>no title</i>, <i>no pin on the front page</i>, <i>few pixels: soft in the report</i> (the cut-out has fewer than 1200 pixels from the original – loosen the crop or use a closer photo) and <i>severity and recommendation do not fit</i> (e.g. «Should be repaired» with the recommendation «followed at the next inspection»). The warnings follow as soon as you fix something.",
+             "<b>New finding without a marker</b> (… menu) makes a finding for the whole surface. Place it on the overview and it gets a pin. <b>Merge</b> joins several findings into one: all markers are kept. The extra photos are at the end of the report, and the PDF shows at most four per finding (the rest are in the HTML report).",
+             "A single picture from a video: draw a marker on the video and the picture at that moment is saved as a photo (with GPS when a .SRT file sits next to it).",
              "The … menu: <i>Move pins</i> on the overview, <i>Place on overview</i> and a second overview (e.g. the back of the roof).",
              "<b>Close-up + pin on the overview:</b> make the finding on the close-up (a box around the damage), choose <i>… → Place on overview</i> and click the spot on the overview photo. You stay on the overview and the finding's numbered pin is there now (the finding gets 📍 in the list). A click on the pin opens the finding and its close-up again. Delete any duplicate finding you made directly on the overview earlier – otherwise the spot has two numbers."]
     },
@@ -238,7 +251,10 @@ en: {
               + "The first time: make an empty public repository on github.com, turn on Pages (Settings → Pages → main, / root) and paste the address. Then send the link to carpenters and roofers. With a GoatCounter code you can see how many opened it."],
       tips: ["The PDF is made twice, so the table on the front page gets the page number of each finding.",
              "With <i>Auto-versioning</i> every export gets its own dated folder instead of replacing the previous one.",
-             "The report goes building part by building part when photos are linked to building parts in the Workshop."]
+             "The report goes building part by building part when photos are linked to building parts in the Workshop.",
+             "The <b>front page</b> has the counts, <i>Look at first</i>, the condition per building part (all parts with findings; without a condition of your own it shows the worst finding) and the overview picture. Flight log, method, case details and the disclaimer are at the back.",
+             "<b>Suggest</b> on the Project page writes the overall assessment and the method from the findings. An unchanged suggestion follows the findings in the report (the method is written again from the project) and the automatic overall assessment is not shown. If you edit the text it stays as you wrote it.",
+             "The checklist also says when a finding has few pixels, has no pin on the front page, or severity and recommendation do not fit together."]
     }
   },
   startPage: {

@@ -15,7 +15,7 @@ window.GUIDE_DATA = {
     {
      "img": "shots/da/project.png",
      "w": 1275,
-     "h": 1745,
+     "h": 1747,
      "sections": [
       {
        "id": "s1",
@@ -58,7 +58,7 @@ window.GUIDE_DATA = {
         9,
         992,
         1257,
-        386
+        388
        ]
       },
       {
@@ -78,7 +78,7 @@ window.GUIDE_DATA = {
        "tip": "Klik for at folde gruppen ud eller ind.",
        "rect": [
         9,
-        1384,
+        1386,
         1257,
         312
        ]
@@ -381,7 +381,7 @@ window.GUIDE_DATA = {
         537,
         1204,
         98,
-        34
+        36
        ],
        "section": "s4"
       },
@@ -391,7 +391,7 @@ window.GUIDE_DATA = {
        "tip": "Gruppér fotoene i flyvninger efter optagetid og aflæs start, varighed, højde og distance.",
        "rect": [
         23,
-        1426,
+        1428,
         118,
         34
        ],
@@ -403,7 +403,7 @@ window.GUIDE_DATA = {
        "tip": "Ryd flyveloggen",
        "rect": [
         147,
-        1426,
+        1428,
         34,
         34
        ],
@@ -1108,6 +1108,30 @@ window.GUIDE_DATA = {
       },
       {
        "id": "c10",
+       "label": "",
+       "tip": "Sæt fotos sammen: markér 2-8 fotos i listen (Ctrl / Skift + klik) og saml dem til ét overblikbillede",
+       "rect": [
+        437,
+        6,
+        32,
+        28
+       ],
+       "section": ""
+      },
+      {
+       "id": "c11",
+       "label": "",
+       "tip": "Lys & farve: eksponering, kontrast, farvemætning, varme, skarphed",
+       "rect": [
+        471,
+        6,
+        32,
+        28
+       ],
+       "section": ""
+      },
+      {
+       "id": "c12",
        "label": "Importér fotos / video…",
        "tip": "Hent fotos og video ind i projektet: kopiér dem ind, eller peg på originalerne.",
        "rect": [
@@ -1119,7 +1143,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c11",
+       "id": "c13",
        "label": "",
        "tip": "Mere: kopiér filer ind i projektet, billeder fra video, foreslå slørede fotos, brug alle viste",
        "rect": [
@@ -1131,9 +1155,9 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c12",
+       "id": "c14",
        "label": "",
-       "tip": "6 udvalgt · 25 fravalgt · 0 ubesluttet af 31",
+       "tip": "7 udvalgt · 27 fravalgt · 1 ubesluttet af 35",
        "rect": [
         143,
         46,
@@ -1406,7 +1430,7 @@ window.GUIDE_DATA = {
       {
        "id": "c20",
        "label": "",
-       "tip": "Slør\nSlør et område (fx en nabos vindue): der kommer et rektangel; placer det, og tryk OK. Tryk igen for flere områder.",
+       "tip": "Slør\nSlør et område (fx en nabos vindue): der kommer et rektangel; placer det, og tryk OK. Hold Alt nede og træk i et hjørne for kun at flytte det hjørne (en fri firkant). Klik på en sløring, der allerede er der, for at rette eller slette den. Tryk igen for flere områder.",
        "rect": [
         539,
         6,
@@ -1418,7 +1442,7 @@ window.GUIDE_DATA = {
       {
        "id": "c21",
        "label": "",
-       "tip": "Fjern beskær / slør\nFjern beskæringen eller den seneste sløring fra dette foto / denne video igen.",
+       "tip": "Lys & farve: eksponering, kontrast, farvemætning, varme, skarphed",
        "rect": [
         573,
         6,
@@ -1430,9 +1454,9 @@ window.GUIDE_DATA = {
       {
        "id": "c22",
        "label": "",
-       "tip": "Brug dette foto som oversigt\nBrug dette foto som oversigtsbillede øverst i rapporten.",
+       "tip": "Fjern beskær / slør\nFjern beskæringen eller den seneste sløring fra dette foto / denne video igen.",
        "rect": [
-        619,
+        607,
         6,
         32,
         28
@@ -1442,29 +1466,17 @@ window.GUIDE_DATA = {
       {
        "id": "c23",
        "label": "",
-       "tip": "Fjern fra storyboard",
+       "tip": "Brug dette foto som oversigt\nBrug dette foto som oversigtsbillede øverst i rapporten.",
        "rect": [
-        835,
-        708,
-        34,
-        34
+        653,
+        6,
+        32,
+        28
        ],
        "section": ""
       },
       {
        "id": "c24",
-       "label": "Storyboard (2 stykker · 0:36)",
-       "tip": "Træk for at ændre rækkefølgen · Delete fjerner · dobbeltklik åbner",
-       "rect": [
-        286,
-        746,
-        583,
-        66
-       ],
-       "section": ""
-      },
-      {
-       "id": "c25",
        "label": "Kun udvalgte fotos",
        "tip": "Vis kun de fotos, du har valgt til rapporten.",
        "rect": [
@@ -1953,6 +1965,18 @@ window.GUIDE_DATA = {
       },
       {
        "id": "c19",
+       "label": "Publicér eksempel-hjemmeside…",
+       "tip": "Lav denne rapport til en lille hjemmeside (forside + rapport + PDF), du kan sende som link og hoste gratis på GitHub Pages.",
+       "rect": [
+        859,
+        689,
+        393,
+        34
+       ],
+       "section": "s1"
+      },
+      {
+       "id": "c20",
        "label": "Standardrækkefølge i rapporten",
        "tip": "Rækkefølgen af fund i rapporten.",
        "rect": [
@@ -1983,7 +2007,7 @@ window.GUIDE_DATA = {
     {
      "img": "shots/en/project.png",
      "w": 1275,
-     "h": 1745,
+     "h": 1747,
      "sections": [
       {
        "id": "s1",
@@ -2026,7 +2050,7 @@ window.GUIDE_DATA = {
         9,
         992,
         1257,
-        386
+        388
        ]
       },
       {
@@ -2046,7 +2070,7 @@ window.GUIDE_DATA = {
        "tip": "Click to fold this group open or closed.",
        "rect": [
         9,
-        1384,
+        1386,
         1257,
         312
        ]
@@ -2349,7 +2373,7 @@ window.GUIDE_DATA = {
         537,
         1204,
         98,
-        34
+        36
        ],
        "section": "s4"
       },
@@ -2359,7 +2383,7 @@ window.GUIDE_DATA = {
        "tip": "Group the photos into flights by capture time and read start, duration, height and distance.",
        "rect": [
         23,
-        1426,
+        1428,
         153,
         34
        ],
@@ -2371,7 +2395,7 @@ window.GUIDE_DATA = {
        "tip": "Clear the flight log",
        "rect": [
         182,
-        1426,
+        1428,
         34,
         34
        ],
@@ -3076,6 +3100,30 @@ window.GUIDE_DATA = {
       },
       {
        "id": "c10",
+       "label": "",
+       "tip": "Stitch photos: mark 2-8 photos in the list (Ctrl / Shift + click) and join them into one overview picture",
+       "rect": [
+        437,
+        6,
+        32,
+        28
+       ],
+       "section": ""
+      },
+      {
+       "id": "c11",
+       "label": "",
+       "tip": "Light & colour: exposure, contrast, saturation, warmth, sharpness",
+       "rect": [
+        471,
+        6,
+        32,
+        28
+       ],
+       "section": ""
+      },
+      {
+       "id": "c12",
        "label": "Import photos / video…",
        "tip": "Bring photos and video into the project: copy them in, or point to the originals.",
        "rect": [
@@ -3087,7 +3135,7 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c11",
+       "id": "c13",
        "label": "",
        "tip": "More: copy files into the project, frames from a video, suggest blurry photos, use all shown",
        "rect": [
@@ -3099,9 +3147,9 @@ window.GUIDE_DATA = {
        "section": ""
       },
       {
-       "id": "c12",
+       "id": "c14",
        "label": "",
-       "tip": "6 selected · 25 not used · 0 undecided of 31",
+       "tip": "7 selected · 27 not used · 1 undecided of 35",
        "rect": [
         143,
         46,
@@ -3374,7 +3422,7 @@ window.GUIDE_DATA = {
       {
        "id": "c20",
        "label": "",
-       "tip": "Blur\nBlur an area (for example a neighbour’s window): a rectangle appears; place it, then OK. Press again for more areas.",
+       "tip": "Blur\nBlur an area (for example a neighbour’s window): a rectangle appears; place it, then OK. Hold Alt and drag a corner to pull that corner alone (a free four-sided shape). Click a blur that is already there to change or delete it. Press again for more areas.",
        "rect": [
         539,
         6,
@@ -3386,7 +3434,7 @@ window.GUIDE_DATA = {
       {
        "id": "c21",
        "label": "",
-       "tip": "Undo crop / blur\nTake the crop or the last blur box off this photo / video again.",
+       "tip": "Light & colour: exposure, contrast, saturation, warmth, sharpness",
        "rect": [
         573,
         6,
@@ -3398,9 +3446,9 @@ window.GUIDE_DATA = {
       {
        "id": "c22",
        "label": "",
-       "tip": "Use this photo as the overview\nUse this photo as the overview picture at the top of the report.",
+       "tip": "Undo crop / blur\nTake the crop or the last blur box off this photo / video again.",
        "rect": [
-        619,
+        607,
         6,
         32,
         28
@@ -3410,29 +3458,17 @@ window.GUIDE_DATA = {
       {
        "id": "c23",
        "label": "",
-       "tip": "Remove from the storyboard",
+       "tip": "Use this photo as the overview\nUse this photo as the overview picture at the top of the report.",
        "rect": [
-        835,
-        708,
-        34,
-        34
+        653,
+        6,
+        32,
+        28
        ],
        "section": ""
       },
       {
        "id": "c24",
-       "label": "Storyboard (2 pieces · 0:36)",
-       "tip": "Drag to change the order · Delete removes · double-click opens",
-       "rect": [
-        286,
-        746,
-        583,
-        66
-       ],
-       "section": ""
-      },
-      {
-       "id": "c25",
        "label": "Only selected photos",
        "tip": "Show only the photos you selected for the report.",
        "rect": [
@@ -3921,6 +3957,18 @@ window.GUIDE_DATA = {
       },
       {
        "id": "c19",
+       "label": "Publish example website…",
+       "tip": "Make this report into a small website (front page + report + PDF) that you can send as a link and host free on GitHub Pages.",
+       "rect": [
+        859,
+        689,
+        393,
+        34
+       ],
+       "section": "s1"
+      },
+      {
+       "id": "c20",
        "label": "Default order in the report",
        "tip": "Order of the findings in the report.",
        "rect": [

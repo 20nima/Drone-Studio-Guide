@@ -1188,7 +1188,7 @@ window.GUIDE_DATA = {
       },
       {
        "id": "s2",
-       "title": "Beskrivelse og anbefaling",
+       "title": "Beskrivelse og bemærkning",
        "tip": "Klik for at folde gruppen ud eller ind.",
        "rect": [
         875,
@@ -1226,11 +1226,11 @@ window.GUIDE_DATA = {
       {
        "id": "c3",
        "label": "Enkelte steder",
-       "tip": "Enkelte steder, tidlige tegn. Typisk alvor 'Følges'.",
+       "tip": "Enkelte steder, tidlige tegn. Typisk alvor 'Mindre'.",
        "rect": [
         960,
         421,
-        103,
+        110,
         28
        ],
        "section": "s1"
@@ -1238,11 +1238,11 @@ window.GUIDE_DATA = {
       {
        "id": "c4",
        "label": "Flere steder",
-       "tip": "Flere steder. Typisk 'Bør udbedres'.",
+       "tip": "Flere steder. Typisk 'Væsentlig'.",
        "rect": [
-        1065,
+        1072,
         421,
-        90,
+        97,
         28
        ],
        "section": "s1"
@@ -1250,11 +1250,11 @@ window.GUIDE_DATA = {
       {
        "id": "c5",
        "label": "Store dele",
-       "tip": "I større omfang. Ofte 'Bør udbedres' eller 'Kritisk', med anbefalingen 'snarest'.",
+       "tip": "I større omfang. Ofte 'Væsentlig' eller 'Kritisk'.",
        "rect": [
-        1157,
+        1171,
         421,
-        101,
+        87,
         28
        ],
        "section": "s1"
@@ -1286,7 +1286,7 @@ window.GUIDE_DATA = {
       {
        "id": "c8",
        "label": "Alvor",
-       "tip": "Kritisk: Synlig skade, som efter inspektørens vurdering bør ses på af en fagperson hurtigst muligt.\nBør udbedres: Synlig skade eller slid, som bør undersøges af en fagperson og udbedres inden for rimelig tid.\nFølges: Værd at holde øje med. Ingen handling nu; se på det igen ved næste eftersyn.\nOK / Notat: I orden, eller en neutral note til dokumentationen.",
+       "tip": "Kritisk: Synlig skade, som ud fra det sete kan have væsentlig betydning for bygningen, hvis forholdet består.\nVæsentlig: Synlig skade eller slid, som kan udvikle sig over tid.\nMindre: Et mindre forhold uden umiddelbar påvirkning set.\nOK / Notat: I orden, eller en neutral note til dokumentationen.",
        "rect": [
         957,
         534,
@@ -1300,9 +1300,9 @@ window.GUIDE_DATA = {
        "label": "Observation",
        "tip": "Beskrivelse til kunden.",
        "rect": [
-        957,
+        960,
         671,
-        304,
+        301,
         70
        ],
        "section": "s2"
@@ -1709,18 +1709,18 @@ window.GUIDE_DATA = {
    "report": [
     {
      "img": "shots/da/report.png",
-     "w": 1275,
-     "h": 812,
+     "w": 1265,
+     "h": 887,
      "sections": [
       {
        "id": "s1",
        "title": "Eksportindstillinger",
        "tip": "Klik for at folde gruppen ud eller ind.",
        "rect": [
-        845,
+        838,
         9,
-        421,
-        794
+        418,
+        869
        ]
       },
       {
@@ -1728,10 +1728,10 @@ window.GUIDE_DATA = {
        "title": "Layout",
        "tip": "RAPPORTLAYOUT – hvordan observationerne opstilles i HTML- og PDF-rapporten",
        "rect": [
-        290,
+        287,
         9,
-        549,
-        794
+        545,
+        869
        ]
       },
       {
@@ -1741,236 +1741,236 @@ window.GUIDE_DATA = {
        "rect": [
         9,
         9,
-        275,
-        794
+        272,
+        869
        ]
       }
      ],
      "controls": [
       {
        "id": "c1",
-       "label": "Størrelse på eksporterede fotos",
-       "tip": "Størrelsen på fotoene i rapporten. Mindre = mindre filer.",
+       "label": "Rapportsprog",
+       "tip": "Rapportens sprog.",
        "rect": [
-        859,
-        75,
-        393,
+        854,
+        178,
+        378,
         32
        ],
        "section": "s1"
       },
       {
        "id": "c2",
-       "label": "Rapportsprog",
-       "tip": "Rapportens sprog.",
+       "label": "Lav også en PDF",
+       "tip": "Opret også en PDF. Bruger den installerede Edge eller Chrome.",
        "rect": [
-        859,
-        137,
-        393,
-        32
+        854,
+        218,
+        378,
+        18
        ],
        "section": "s1"
       },
       {
        "id": "c3",
-       "label": "Opret også en PDF",
-       "tip": "Opret også en PDF",
+       "label": "Kopiér udvalgte originalfotos",
+       "tip": "Kopiér de udvalgte originaler med i eksportmappen",
        "rect": [
-        859,
-        175,
-        393,
+        854,
+        244,
+        378,
         18
        ],
        "section": "s1"
       },
       {
        "id": "c4",
-       "label": "Auto-versionering (gem hver eksport i sin egen daterede mappe)",
+       "label": "Gem hver eksport i sin egen mappe",
        "tip": "Auto-versionering (gem hver eksport i sin egen daterede mappe)",
        "rect": [
-        859,
-        223,
-        393,
+        854,
+        270,
+        378,
         18
        ],
        "section": "s1"
       },
       {
        "id": "c5",
-       "label": "Kopiér de udvalgte originaler med i eksportmappen",
-       "tip": "Kopiér de udvalgte originaler med i eksportmappen",
+       "label": "Flyvelog",
+       "tip": "Medtag flyvelog",
        "rect": [
-        859,
-        247,
-        393,
+        854,
+        329,
+        378,
         18
        ],
        "section": "s1"
       },
       {
        "id": "c6",
-       "label": "Medtag flyvelog",
-       "tip": "Medtag flyvelog",
+       "label": "Liste over fotopositioner",
+       "tip": "Medtag listen over fotopositioner",
        "rect": [
-        859,
-        271,
-        393,
+        854,
+        355,
+        378,
         18
        ],
        "section": "s1"
       },
       {
        "id": "c7",
-       "label": "Medtag listen over fotopositioner",
-       "tip": "Medtag listen over fotopositioner",
+       "label": "Bemærkning i oversigtstabellen",
+       "tip": "Vis bemærkningen i oversigtstabellen",
        "rect": [
-        859,
-        295,
-        393,
+        854,
+        381,
+        378,
         18
        ],
        "section": "s1"
       },
       {
        "id": "c8",
-       "label": "Vis ‘AI-assisteret’ på hvert fund",
+       "label": "‘AI-assisteret’-mærke på fund",
        "tip": "Vis ‘AI-assisteret’ på hvert fund",
        "rect": [
-        859,
-        319,
-        393,
+        854,
+        407,
+        378,
         18
        ],
        "section": "s1"
       },
       {
        "id": "c9",
-       "label": "Vis anbefalingen i oversigtstabellen",
-       "tip": "Vis anbefalingen i oversigtstabellen",
+       "label": "1080p · 30 fps (anbefalet)",
+       "tip": "Rapport-video 1080p 30 fps (lille – anbefalet)",
        "rect": [
-        859,
-        343,
-        393,
+        854,
+        466,
+        378,
         18
        ],
        "section": "s1"
       },
       {
        "id": "c10",
-       "label": "Rapport-video 1080p 30 fps (lille – anbefalet)",
-       "tip": "Rapport-video 1080p 30 fps (lille – anbefalet)",
+       "label": "1080p · 60 fps",
+       "tip": "Rapport-video 1080p 60 fps (jævn bevægelse)",
        "rect": [
-        859,
-        367,
-        393,
+        854,
+        492,
+        378,
         18
        ],
        "section": "s1"
       },
       {
        "id": "c11",
-       "label": "Rapport-video 1080p 60 fps (jævn bevægelse)",
-       "tip": "Rapport-video 1080p 60 fps (jævn bevægelse)",
+       "label": "4K · 60 fps (stor, langsom)",
+       "tip": "Rapport-video 4K 60 fps (stor, tager længere tid)",
        "rect": [
-        859,
-        391,
-        393,
+        854,
+        518,
+        378,
         18
        ],
        "section": "s1"
       },
       {
        "id": "c12",
-       "label": "Rapport-video 4K 60 fps (stor, tager længere tid)",
-       "tip": "Rapport-video 4K 60 fps (stor, tager længere tid)",
+       "label": "Medtag originalvideoer",
+       "tip": "Medtag også de originale videoer (kan fylde meget)",
        "rect": [
-        859,
-        415,
-        393,
+        854,
+        544,
+        378,
         18
        ],
        "section": "s1"
       },
       {
        "id": "c13",
-       "label": "Medtag også de originale videoer (kan fylde meget)",
-       "tip": "Medtag også de originale videoer (kan fylde meget)",
+       "label": "Også enkeltvideoer (ved storyboard)",
+       "tip": "Vis også de enkelte videoer (når der er et storyboard)",
        "rect": [
-        859,
-        439,
-        393,
+        854,
+        570,
+        378,
         18
        ],
        "section": "s1"
       },
       {
        "id": "c14",
-       "label": "Vis også de enkelte videoer (når der er et storyboard)",
-       "tip": "Vis også de enkelte videoer (når der er et storyboard)",
+       "label": "Eksportér rapport",
+       "tip": "Laver HTML-rapporten (og en PDF, hvis ‘Lav også en PDF’ er sat).",
        "rect": [
-        859,
-        463,
-        393,
-        18
+        854,
+        629,
+        378,
+        34
        ],
        "section": "s1"
       },
       {
        "id": "c15",
-       "label": "🔍 Forhåndsvis i browser",
-       "tip": "Åbn et hurtigt udkast af rapporten i din browser.",
+       "label": "Forhåndsvis",
+       "tip": "🔍 Forhåndsvis i browser",
        "rect": [
-        859,
-        487,
-        393,
+        854,
+        671,
+        185,
         34
        ],
        "section": "s1"
       },
       {
        "id": "c16",
-       "label": "🚀 Eksportér rapport",
-       "tip": "Lav kunderapporten (HTML og evt. PDF) i en mappe du vælger.",
+       "label": "Rapport + PDF",
+       "tip": "Laver HTML-rapporten og en PDF, uanset ‘Lav også en PDF’.",
        "rect": [
-        859,
-        527,
-        393,
+        1047,
+        671,
+        185,
         34
        ],
        "section": "s1"
       },
       {
        "id": "c17",
-       "label": "📄 Eksportér som PDF",
-       "tip": "Lav rapporten som PDF, også hvis PDF-valget er slået fra.",
+       "label": "Eksportér anonymiseret rapport (HTML + PDF)",
+       "tip": "En ekstra eksport af hele rapporten (HTML og PDF) i export/report/anonymous: kundens navn, adresse, telefon og e-mail erstattet, ansigter og nummerplader sløret, ingen positioner, flyvelog, projektfil eller originale fotos.",
        "rect": [
-        859,
-        567,
-        393,
+        854,
+        713,
+        378,
         34
        ],
        "section": "s1"
       },
       {
        "id": "c18",
-       "label": "Eksportér til Blender…",
-       "tip": "Skriv kameraer, fund og ortofoto til Blender med et færdigt importscript.",
+       "label": "Til Blender…",
+       "tip": "Kameraer fra fotoene, fund som markører og ortofotoet som plan, med et færdigt importscript.",
        "rect": [
-        859,
-        649,
-        393,
+        854,
+        814,
+        185,
         34
        ],
        "section": "s1"
       },
       {
        "id": "c19",
-       "label": "Publicér eksempel-hjemmeside…",
-       "tip": "Lav denne rapport til en lille hjemmeside (forside + rapport + PDF), du kan sende som link og hoste gratis på GitHub Pages.",
+       "label": "Publicér eksempel…",
+       "tip": "Lav denne rapport til en lille hjemmeside (forside + rapport + PDF), du kan sende som link og hoste gratis på GitHub Pages. Til at vise dit arbejde til nye kunder: et link i stedet for en vedhæftet fil.",
        "rect": [
-        859,
-        689,
-        393,
+        1047,
+        814,
+        185,
         34
        ],
        "section": "s1"
@@ -1980,10 +1980,22 @@ window.GUIDE_DATA = {
        "label": "Standardrækkefølge i rapporten",
        "tip": "Rækkefølgen af fund i rapporten.",
        "rect": [
-        426,
+        423,
         593,
         290,
         32
+       ],
+       "section": "s2"
+      },
+      {
+       "id": "c21",
+       "label": "🔍 Forhåndsvis i browser",
+       "tip": "Åbn et hurtigt udkast af rapporten i din browser.",
+       "rect": [
+        301,
+        635,
+        172,
+        34
        ],
        "section": "s2"
       }
@@ -3180,7 +3192,7 @@ window.GUIDE_DATA = {
       },
       {
        "id": "s2",
-       "title": "Description and recommendation",
+       "title": "Description and remark",
        "tip": "Click to fold this group open or closed.",
        "rect": [
         875,
@@ -3217,36 +3229,36 @@ window.GUIDE_DATA = {
       },
       {
        "id": "c3",
-       "label": "Beginning",
-       "tip": "A few places, early signs. Usually severity 'Monitor'.",
+       "label": "Few places",
+       "tip": "A few places, early signs. Usually severity 'Minor'.",
        "rect": [
         942,
         425,
-        104,
+        100,
         28
        ],
        "section": "s1"
       },
       {
        "id": "c4",
-       "label": "Moderate",
-       "tip": "Several places. Usually 'Should be repaired'.",
+       "label": "Several places",
+       "tip": "Several places. Usually 'Significant'.",
        "rect": [
-        1048,
+        1044,
         425,
-        104,
+        112,
         28
        ],
        "section": "s1"
       },
       {
        "id": "c5",
-       "label": "Extensive",
-       "tip": "To a large extent. Often 'Should be repaired' or 'Critical', with the recommendation 'as soon as possible'.",
+       "label": "Large parts",
+       "tip": "To a large extent. Often 'Significant' or 'Critical'.",
        "rect": [
-        1154,
+        1158,
         425,
-        104,
+        100,
         28
        ],
        "section": "s1"
@@ -3278,7 +3290,7 @@ window.GUIDE_DATA = {
       {
        "id": "c8",
        "label": "Severity",
-       "tip": "Critical: Visible damage that, in the inspector's view, should be looked at by a qualified tradesperson as soon as possible.\nShould be repaired: Visible damage or wear that should be examined by a qualified tradesperson and repaired within a reasonable time.\nMonitor: Worth keeping an eye on. No action needed now; look again at the next inspection.\nOK / Note: In order, or a neutral note for the record.",
+       "tip": "Critical: Visible damage that, from what could be seen, may be of significant importance to the building if it persists.\nSignificant: Visible damage or wear that may develop over time.\nMinor: A minor condition with no immediate effect seen.\nOK / Note: In order, or a neutral note for the record.",
        "rect": [
         939,
         538,
@@ -3292,9 +3304,9 @@ window.GUIDE_DATA = {
        "label": "Observation",
        "tip": "Description for the customer.",
        "rect": [
-        989,
+        957,
         679,
-        272,
+        304,
         70
        ],
        "section": "s2"
@@ -3701,18 +3713,18 @@ window.GUIDE_DATA = {
    "report": [
     {
      "img": "shots/en/report.png",
-     "w": 1275,
-     "h": 812,
+     "w": 1265,
+     "h": 887,
      "sections": [
       {
        "id": "s1",
        "title": "Export options",
        "tip": "Click to fold this group open or closed.",
        "rect": [
-        845,
+        838,
         9,
-        421,
-        794
+        418,
+        869
        ]
       },
       {
@@ -3720,10 +3732,10 @@ window.GUIDE_DATA = {
        "title": "Layout",
        "tip": "REPORT LAYOUT – how the findings are arranged in the HTML and PDF report",
        "rect": [
-        290,
+        287,
         9,
-        549,
-        794
+        545,
+        869
        ]
       },
       {
@@ -3733,236 +3745,236 @@ window.GUIDE_DATA = {
        "rect": [
         9,
         9,
-        275,
-        794
+        272,
+        869
        ]
       }
      ],
      "controls": [
       {
        "id": "c1",
-       "label": "Exported photo size",
-       "tip": "Size of the photos in the report. Smaller = smaller files.",
+       "label": "Report language",
+       "tip": "Language of the report.",
        "rect": [
-        859,
-        75,
-        393,
+        854,
+        178,
+        378,
         32
        ],
        "section": "s1"
       },
       {
        "id": "c2",
-       "label": "Report language",
-       "tip": "Language of the report.",
+       "label": "Also make a PDF",
+       "tip": "Also create a PDF. Uses the Edge or Chrome that is installed.",
        "rect": [
-        859,
-        137,
-        393,
-        32
+        854,
+        218,
+        378,
+        18
        ],
        "section": "s1"
       },
       {
        "id": "c3",
-       "label": "Also create a PDF",
-       "tip": "Also create a PDF",
+       "label": "Copy the selected original photos",
+       "tip": "Copy the selected originals into the export folder",
        "rect": [
-        859,
-        175,
-        393,
+        854,
+        244,
+        378,
         18
        ],
        "section": "s1"
       },
       {
        "id": "c4",
-       "label": "Auto-versioning (keep every export in its own dated folder)",
+       "label": "Keep every export in its own folder",
        "tip": "Auto-versioning (keep every export in its own dated folder)",
        "rect": [
-        859,
-        223,
-        393,
+        854,
+        270,
+        378,
         18
        ],
        "section": "s1"
       },
       {
        "id": "c5",
-       "label": "Copy the selected originals into the export folder",
-       "tip": "Copy the selected originals into the export folder",
+       "label": "Flight log",
+       "tip": "Include the flight log",
        "rect": [
-        859,
-        247,
-        393,
+        854,
+        329,
+        378,
         18
        ],
        "section": "s1"
       },
       {
        "id": "c6",
-       "label": "Include the flight log",
-       "tip": "Include the flight log",
+       "label": "List of photo positions",
+       "tip": "Include the list of photo positions",
        "rect": [
-        859,
-        271,
-        393,
+        854,
+        355,
+        378,
         18
        ],
        "section": "s1"
       },
       {
        "id": "c7",
-       "label": "Include the list of photo positions",
-       "tip": "Include the list of photo positions",
+       "label": "Remark in the summary table",
+       "tip": "Show the remark in the summary table",
        "rect": [
-        859,
-        295,
-        393,
+        854,
+        381,
+        378,
         18
        ],
        "section": "s1"
       },
       {
        "id": "c8",
-       "label": "Show ‘AI-assisted’ on every finding",
+       "label": "‘AI-assisted’ mark on findings",
        "tip": "Show ‘AI-assisted’ on every finding",
        "rect": [
-        859,
-        319,
-        393,
+        854,
+        407,
+        378,
         18
        ],
        "section": "s1"
       },
       {
        "id": "c9",
-       "label": "Show the recommendation in the summary table",
-       "tip": "Show the recommendation in the summary table",
+       "label": "1080p · 30 fps (recommended)",
+       "tip": "Report video 1080p 30 fps (small – recommended)",
        "rect": [
-        859,
-        343,
-        393,
+        854,
+        466,
+        378,
         18
        ],
        "section": "s1"
       },
       {
        "id": "c10",
-       "label": "Report video 1080p 30 fps (small – recommended)",
-       "tip": "Report video 1080p 30 fps (small – recommended)",
+       "label": "1080p · 60 fps",
+       "tip": "Report video 1080p 60 fps (smooth motion)",
        "rect": [
-        859,
-        367,
-        393,
+        854,
+        492,
+        378,
         18
        ],
        "section": "s1"
       },
       {
        "id": "c11",
-       "label": "Report video 1080p 60 fps (smooth motion)",
-       "tip": "Report video 1080p 60 fps (smooth motion)",
+       "label": "4K · 60 fps (large, slow)",
+       "tip": "Report video 4K 60 fps (large, takes longer)",
        "rect": [
-        859,
-        391,
-        393,
+        854,
+        518,
+        378,
         18
        ],
        "section": "s1"
       },
       {
        "id": "c12",
-       "label": "Report video 4K 60 fps (large, takes longer)",
-       "tip": "Report video 4K 60 fps (large, takes longer)",
+       "label": "Include the original videos",
+       "tip": "Also include the original videos (can be very large)",
        "rect": [
-        859,
-        415,
-        393,
+        854,
+        544,
+        378,
         18
        ],
        "section": "s1"
       },
       {
        "id": "c13",
-       "label": "Also include the original videos (can be very large)",
-       "tip": "Also include the original videos (can be very large)",
+       "label": "Single videos too (with a storyboard)",
+       "tip": "Also show the single videos (with a storyboard)",
        "rect": [
-        859,
-        439,
-        393,
+        854,
+        570,
+        378,
         18
        ],
        "section": "s1"
       },
       {
        "id": "c14",
-       "label": "Also show the single videos (with a storyboard)",
-       "tip": "Also show the single videos (with a storyboard)",
+       "label": "Export report",
+       "tip": "Makes the HTML report (and a PDF when ‘Also make a PDF’ is ticked).",
        "rect": [
-        859,
-        463,
-        393,
-        18
+        854,
+        629,
+        378,
+        34
        ],
        "section": "s1"
       },
       {
        "id": "c15",
-       "label": "🔍 Preview in browser",
-       "tip": "Open a quick preview of the report in your browser.",
+       "label": "Preview",
+       "tip": "🔍 Preview in browser",
        "rect": [
-        859,
-        487,
-        393,
+        854,
+        671,
+        185,
         34
        ],
        "section": "s1"
       },
       {
        "id": "c16",
-       "label": "🚀 Export report",
-       "tip": "Create the customer report (HTML and optionally PDF) in a folder of your choice.",
+       "label": "Report + PDF",
+       "tip": "Makes the HTML report and a PDF, whatever ‘Also make a PDF’ says.",
        "rect": [
-        859,
-        527,
-        393,
+        1047,
+        671,
+        185,
         34
        ],
        "section": "s1"
       },
       {
        "id": "c17",
-       "label": "📄 Export as PDF",
-       "tip": "Create the report as a PDF, even if the PDF option is off.",
+       "label": "Export anonymised report (HTML + PDF)",
+       "tip": "An extra export of the whole report (HTML and PDF) in export/report/anonymous: the customer's name, address, phone and e-mail replaced, faces and number plates blurred, no positions, flight log, project file or original photos.",
        "rect": [
-        859,
-        567,
-        393,
+        854,
+        713,
+        378,
         34
        ],
        "section": "s1"
       },
       {
        "id": "c18",
-       "label": "Export to Blender…",
-       "tip": "Write cameras, findings and the orthophoto for Blender, with a ready import script.",
+       "label": "To Blender…",
+       "tip": "Cameras from the photos, findings as markers and the orthophoto as a plane, with a ready-to-run import script.",
        "rect": [
-        859,
-        649,
-        393,
+        854,
+        814,
+        185,
         34
        ],
        "section": "s1"
       },
       {
        "id": "c19",
-       "label": "Publish example website…",
-       "tip": "Make this report into a small website (front page + report + PDF) that you can send as a link and host free on GitHub Pages.",
+       "label": "Publish example…",
+       "tip": "Make this report into a small website (front page + report + PDF) that you can send as a link and host free on GitHub Pages. For showing your work to new customers: a link instead of an attachment.",
        "rect": [
-        859,
-        689,
-        393,
+        1047,
+        814,
+        185,
         34
        ],
        "section": "s1"
@@ -3972,10 +3984,22 @@ window.GUIDE_DATA = {
        "label": "Default order in the report",
        "tip": "Order of the findings in the report.",
        "rect": [
-        423,
+        420,
         593,
         283,
         32
+       ],
+       "section": "s2"
+      },
+      {
+       "id": "c21",
+       "label": "🔍 Preview in browser",
+       "tip": "Open a quick preview of the report in your browser.",
+       "rect": [
+        301,
+        635,
+        156,
+        34
        ],
        "section": "s2"
       }

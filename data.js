@@ -1225,7 +1225,7 @@ window.GUIDE_DATA = {
       },
       {
        "id": "c3",
-       "label": "Begyndende",
+       "label": "Enkelte steder",
        "tip": "Enkelte steder, tidlige tegn. Typisk alvor 'Følges'.",
        "rect": [
         960,
@@ -1237,7 +1237,7 @@ window.GUIDE_DATA = {
       },
       {
        "id": "c4",
-       "label": "Moderat",
+       "label": "Flere steder",
        "tip": "Flere steder. Typisk 'Bør udbedres'.",
        "rect": [
         1065,
@@ -1249,7 +1249,7 @@ window.GUIDE_DATA = {
       },
       {
        "id": "c5",
-       "label": "Omfattende",
+       "label": "Store dele",
        "tip": "I større omfang. Ofte 'Bør udbedres' eller 'Kritisk', med anbefalingen 'snarest'.",
        "rect": [
         1157,

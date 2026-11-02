@@ -1710,7 +1710,7 @@ window.GUIDE_DATA = {
     {
      "img": "shots/da/report.png",
      "w": 1265,
-     "h": 887,
+     "h": 929,
      "sections": [
       {
        "id": "s1",
@@ -1720,7 +1720,7 @@ window.GUIDE_DATA = {
         838,
         9,
         418,
-        869
+        911
        ]
       },
       {
@@ -1731,7 +1731,7 @@ window.GUIDE_DATA = {
         287,
         9,
         545,
-        869
+        911
        ]
       },
       {
@@ -1742,7 +1742,7 @@ window.GUIDE_DATA = {
         9,
         9,
         272,
-        869
+        911
        ]
       }
      ],
@@ -1977,6 +1977,30 @@ window.GUIDE_DATA = {
       },
       {
        "id": "c20",
+       "label": "Publicér til kunden…",
+       "tip": "Lav afleveringsmappen til kunden: PDF'en, én zip med fotos og videoer i fuld størrelse og rapporten som en lille privat hjemmeside med sit eget link. Hjemmesiden lægges online.",
+       "rect": [
+        854,
+        856,
+        185,
+        34
+       ],
+       "section": "s1"
+      },
+      {
+       "id": "c21",
+       "label": "Afleveringer…",
+       "tip": "De afleveringer, der er lavet fra dette projekt: adressen du sender, mappen, mailteksten, linket til zip-filen, læg online eller tag ned.",
+       "rect": [
+        1047,
+        856,
+        185,
+        34
+       ],
+       "section": "s1"
+      },
+      {
+       "id": "c22",
        "label": "Standardrækkefølge i rapporten",
        "tip": "Rækkefølgen af fund i rapporten.",
        "rect": [
@@ -1988,7 +2012,7 @@ window.GUIDE_DATA = {
        "section": "s2"
       },
       {
-       "id": "c21",
+       "id": "c23",
        "label": "🔍 Forhåndsvis i browser",
        "tip": "Åbn et hurtigt udkast af rapporten i din browser.",
        "rect": [
@@ -3714,7 +3738,7 @@ window.GUIDE_DATA = {
     {
      "img": "shots/en/report.png",
      "w": 1265,
-     "h": 887,
+     "h": 929,
      "sections": [
       {
        "id": "s1",
@@ -3724,7 +3748,7 @@ window.GUIDE_DATA = {
         838,
         9,
         418,
-        869
+        911
        ]
       },
       {
@@ -3735,7 +3759,7 @@ window.GUIDE_DATA = {
         287,
         9,
         545,
-        869
+        911
        ]
       },
       {
@@ -3746,7 +3770,7 @@ window.GUIDE_DATA = {
         9,
         9,
         272,
-        869
+        911
        ]
       }
      ],
@@ -3981,6 +4005,30 @@ window.GUIDE_DATA = {
       },
       {
        "id": "c20",
+       "label": "Publish to customer…",
+       "tip": "Make the delivery folder for the customer: the PDF, one zip with the full-size photos and videos, and the report as a small private website with its own link. The website is put online.",
+       "rect": [
+        854,
+        856,
+        185,
+        34
+       ],
+       "section": "s1"
+      },
+      {
+       "id": "c21",
+       "label": "Deliveries…",
+       "tip": "The deliveries made from this project: the address to send, the folder, the mail text, the link to the zip, put online or take down.",
+       "rect": [
+        1047,
+        856,
+        185,
+        34
+       ],
+       "section": "s1"
+      },
+      {
+       "id": "c22",
        "label": "Default order in the report",
        "tip": "Order of the findings in the report.",
        "rect": [
@@ -3992,7 +4040,7 @@ window.GUIDE_DATA = {
        "section": "s2"
       },
       {
-       "id": "c21",
+       "id": "c23",
        "label": "🔍 Preview in browser",
        "tip": "Open a quick preview of the report in your browser.",
        "rect": [
